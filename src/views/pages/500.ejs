@@ -1,0 +1,23 @@
+<section id="lost">
+  <div class="lost-container">
+    <h2>500</h2>
+
+
+    <!-- Afficher le message d'erreur -->
+    <p class="randomPhrase"><%= error.message ? error.message : 'Erreur interne du serveur' %></p>
+    <p id="randomPhrase500"></p>
+    <!-- Bouton Précédent pour revenir à la page précédente -->
+    <button onclick="goBack()">Revenir</button>
+  </div>
+</section>
+
+<script>
+  // Fonction pour revenir à la page précédente
+  function goBack() {
+    window.history.back();
+  }
+</script>
+<script src="/js/phrase500.js"></script>
+
+
+

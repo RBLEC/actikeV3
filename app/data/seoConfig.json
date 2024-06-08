@@ -1,0 +1,93 @@
+{
+  "home": {
+    "url": "/",
+    "pageTitle": "BLECWeb Accueil - Développement Fullstack NodeJS/React à Faverges",
+    "pageDescription": "Situé à Faverges 74210, BLECWeb crée des sites vitrines de pointe avec NodeJS, React et PostgreSQL. Élevez votre entreprise locale en ligne.",
+    "keywords": "BLECWeb, accueil, développement web Fullstack, NodeJS, React, PostgreSQL, site vitrine, Faverges 74210, développement sur mesure",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  },
+  "about": {
+    "url": "/a-propos",
+    "pageTitle": "À Propos de BLECWeb - Notre Histoire et Nos Valeurs",
+    "pageDescription": "Découvrez BLECWeb, notre mission de fusionner technologie et humanité pour créer des solutions web significatives. Rencontrez l'équipe derrière notre succès.",
+    "keywords": "BLECWeb, à propos, histoire, valeurs, mission, équipe, développement Fullstack",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  },
+  "services": {
+    "url": "/services",
+    "pageTitle": "Services BLECWeb - Expertise Fullstack",
+    "pageDescription": "Découvrez notre gamme de services de développement Fullstack, des applications modernes en React aux solutions backend avec NodeJS, tous adaptés à vos besoins uniques.",
+    "keywords": "BLECWeb, services, développement Fullstack, NodeJS, React, PostgreSQL, sites vitrines, expertise technique",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  },
+  "portfolio": {
+    "url": "/portfolio",
+    "pageTitle": "Portfolio BLECWeb - Projets et Études de Cas",
+    "pageDescription": "Explorez notre portfolio pour découvrir les sites vitrines et projets web développés par BLECWeb, mettant en avant notre expertise technique et notre engagement envers la satisfaction client.",
+    "keywords": "BLECWeb, portfolio, projets, études de cas, NodeJS, React, PostgreSQL",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  },
+  "maintenance": {
+    "url": "/service-maintenance",
+    "pageTitle": "Maintenance BLECWeb - Personnalisée et Fiable",
+    "pageDescription": "Découvrez notre engagement envers une continuité de service inégalée avec nos solutions de maintenance web personnalisées et fiables.",
+    "keywords": "BLECWeb, maintenance, services web fiables, continuité de service, support technique",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  },
+  "maintenance-landing": {
+    "url": "/page-maintenance",
+    "pageTitle": "Pages de Maintenance - Engagement BLECWeb",
+    "pageDescription": "Nos pages de maintenance sont conçues pour maintenir l'engagement des utilisateurs et fournir des informations claires lors des mises à jour ou périodes de maintenance.",
+    "keywords": "BLECWeb, pages de maintenance, engagement des utilisateurs, communication de service",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  },
+  "countdown": {
+    "url": "/compte-a-rebours",
+    "pageTitle": "Compte à Rebours BLECWeb - Anticipation de l'Innovation",
+    "pageDescription": "Préparez-vous à découvrir des innovations technologiques révolutionnaires et des projets de développement web Fullstack avec notre compte à rebours BLECWeb.",
+    "keywords": "BLECWeb, compte à rebours, anticipation, innovation, lancement de site, NodeJS, React",
+    "author": "Régis BLEC"
+  },
+  "blecweb-opening": {
+    "url": "/ouverture-BLECWeb",
+    "pageTitle": "Ouverture Imminente de BLECWeb à Faverges - Expertise Fullstack NodeJS/React",
+    "pageDescription": "Restez à l'écoute pour l'ouverture de BLECWeb à Faverges 74210, spécialiste en développement Fullstack avec NodeJS, React et PostgreSQL. Rejoignez-nous pour découvrir des sites vitrines innovants et performants.",
+    "keywords": "BLECWeb, ouverture, développement Fullstack, NodeJS, React, PostgreSQL, Faverges 74210, création de sites vitrines, solutions technologiques innovantes, expertise en développement web",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  },
+  "contact": {
+    "url": "/contact",
+    "pageTitle": "Contactez BLECWeb à Faverges - Expertise Fullstack NodeJS/React",
+    "pageDescription": "Contactez BLECWeb à Faverges 74210, votre spécialiste en développement Fullstack avec NodeJS, React et PostgreSQL. Nous sommes là pour répondre à toutes vos questions et discuter de vos projets de développement web.",
+    "keywords": "BLECWeb, contact, développement Fullstack, NodeJS, React, PostgreSQL, Faverges 74210, création de sites vitrines, solutions technologiques innovantes, expertise en développement web",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  },
+  "send-email": {
+    "url": "/envoyer-email",
+    "pageTitle": "Envoyer un Message - BLECWeb",
+    "pageDescription": "Envoyez un message à BLECWeb à Faverges 74210 pour discuter de vos projets de développement web Fullstack avec NodeJS, React et PostgreSQL. Nous répondrons à toutes vos questions.",
+    "keywords": "BLECWeb, envoyer un message, contact, développement Fullstack, NodeJS, React, PostgreSQL, Faverges 74210",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  },
+  "legalMentions": {
+    "url": "/mentions-legales",
+    "pageTitle": "Mentions Légales de BLECWeb - Engagement en Transparence et Conformité",
+    "pageDescription": "Découvrez les mentions légales de BLECWeb à Faverges 74210, soulignant notre engagement en matière de transparence et de conformité légale dans le développement Fullstack avec NodeJS, React et PostgreSQL. Nous respectons et adhérons aux normes de confidentialité, de protection des données et des droits des utilisateurs.",
+    "keywords": "BLECWeb, mentions légales, conformité, transparence, développement Fullstack, NodeJS, React, PostgreSQL, Faverges 74210, protection des données, politique de confidentialité, droits des utilisateurs",
+    "author": "Régis BLEC, Expert Développeur Fullstack et Délégué à la Protection des Données"
+  },
+  "500": {
+    "url": "/500",
+    "pageTitle": "Erreur de Page - BLECWeb",
+    "pageDescription": "Oups! La page que vous essayez d'atteindre ne peut être trouvée. Cela peut être dû à une adresse mal saisie ou à une page qui a été déplacée. Utilisez notre menu pour revenir à la bonne page ou contactez notre équipe de développement Fullstack pour obtenir de l'aide.",
+    "keywords": "BLECWeb, erreur, page introuvable, lien cassé, développement NodeJS, React, PostgreSQL, aide technique",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  },
+  "404": {
+    "url": "/404",
+    "pageTitle": "Page Introuvable - BLECWeb",
+    "pageDescription": "Oups! La page que vous essayez d'atteindre ne peut être trouvée. Cela peut être dû à une adresse mal saisie ou à une page qui a été déplacée. Utilisez notre menu pour revenir à la bonne page ou contactez notre équipe de développement Fullstack pour obtenir de l'aide.",
+    "keywords": "BLECWeb, erreur, page introuvable, lien cassé, développement NodeJS, React, PostgreSQL, aide technique",
+    "author": "Régis BLEC, Expert Développeur Fullstack"
+  }
+}

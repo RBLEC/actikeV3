@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="<%= data.seoConfig.home.pageDescription %>">
+  <meta name="keywords" content="<%= data.seoConfig.home.keywords %>">
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <!--
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">-->
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/css/header.css">
+  <link rel="stylesheet" type="text/css" href="/css/navigation.css">
+  <link rel="stylesheet" type="text/css" href="/css/footer.css">
+  <link rel="stylesheet" type="text/css" href="/css/<%= content %>.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="preload" href="/css/main.css" as="style">
+
+
+<!-- cade de suivi UMAMI -->
+<script defer src="https://umami.blecweb.fr/script.js" data-website-id="b28ae87f-80ee-4aec-ba76-85b2865c366f"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <title>ACTICK</title>
+</head>
+
+<body>
+  <div class="page-main">
+      <%- include('../partials/header') %>
+      <main>
+        <div class="center-image">
+          <%- include('../pages/' + content) %>
+        </div>
+      </main>
+      <%- include('../partials/footer') %>
+  </div>
+  
+ <!--<script src="/js/umamiScript.js" defer></script>--> 
+
+  <script src="/js/copyright.js" defer></script>
+  <script src="/js/burger.js" defer></script>
+
+
+
+</body>
+</html>

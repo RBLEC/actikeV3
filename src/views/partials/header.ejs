@@ -1,0 +1,20 @@
+<header>
+    <div class="branding">
+        <a href="/" class="logo">
+            <img 
+                src="images/logo1.webp" 
+                alt="Logo de l'entreprise 
+                    <%= data.enterprise[0].denomination %> 
+                    <%= data.enterprise[0].informations_legales.status %>">
+        </a>
+        <h1 class="branding-name"><%= data.enterprise[0].denomination %></h1>
+      
+        <p class="branding-text">  <!--L'Excellence Numérique au Service de la Planète,<br> Rejoignez l'Aventure !--></p>
+    </div>
+        <nav class="bloc-nav">
+            <%- include('../partials/navigation') %> 
+        </nav>
+
+
+
+</header>
