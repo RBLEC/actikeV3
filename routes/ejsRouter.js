@@ -20,16 +20,15 @@ ejsRouter.get('/', (req, res) => {
         globalData = {}; // Valeur par défaut si le fichier n'existe pas
     }
 
-    console.log('globalData', globalData);
-    console.log('seoConfig.home', globalData.seoConfig.home);
+   // console.log('globalData', globalData);
+   // console.log('seoConfig.home', globalData.seoConfig.home);
+    console.log('date', globalData.enterprise[0].debut_activite);
 
     // Rendre la vue
     try {
         res.status(200).render('layouts/main', {
-            //...seoConfig.home,
             content: 'index',
             data: globalData // Passer globalData à la vue
-          //  console.log('data', globalData)
         });
     } catch (error) {
         logger.error(error);
