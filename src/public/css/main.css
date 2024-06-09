@@ -95,8 +95,21 @@ nav {
   margin: 0.5rem;
   background-color: white;
   padding: 0.5rem 1rem;
-  border-radius: 5px;
+
 }
+.nav-links .link:hover::after {
+  transform: scale(1);
+  transform-origin: center;
+}
+.nav-links .link::after {
+  content: "";
+  display: block;
+  height: 0.15rem;
+  background: #00A36C;
+  transform: scale(0);
+  transition: transform 0.3s;
+}
+
 
 li {
   margin: 0.5rem;
@@ -115,6 +128,14 @@ li {
   background: #00A36C; /* Vert émeraude pour les boutons */
   padding: 10px 20px;
   border-radius: 2rem;
+  border: solid 1px #fff;
+
+}
+.cta-button:hover {
+  color: #00A36C;
+  background: #fff; 
+    border: solid 1px #00A36C;
+
 }
 
 .link-cta {
