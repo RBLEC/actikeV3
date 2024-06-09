@@ -3,22 +3,17 @@
 
 body {
   font-family: 'Roboto', 'Open Sans', sans-serif;
-  color: #002366; /* Bleu foncé pour les textes */
+  color: #002366; 
 }
 
 header {
   background: rgba(255, 255, 255, 0.0); /* transparent background */
-  opacity: 0; /* Départ de l'opacité à 0 */
-  transition: opacity 5s ease; /* Transition d'opacité sur 5 secondes */
+  transition: background 0.25s ease;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000; /* Ensure the header is above other content */
   height: 80px; /* Ajustez cette valeur à la hauteur réelle de votre header */
-}
-
-header.visible {
-  opacity: 1; /* Opacité à 1 lors de l'affichage */
 }
 
 header.scrolled {
@@ -60,9 +55,6 @@ nav {
   height: 100px;
 }
 
-.name {
-  display: none; /* Masquer par défaut */
-}
 
 .name h1 {
   font-size: 1.2rem;
@@ -159,19 +151,7 @@ li {
   padding: 2rem 1rem;
   max-width: 550px;
   border-radius: 0.5rem;
-  opacity: 0; /* Départ de l'opacité à 0 */
-  transform: translateY(100px); /* Départ de la translation vers le bas */
-  transition: opacity 2s ease, transform 2s ease; /* Transition d'opacité et de translation sur 2 secondes */
-}
-
-.hero-content.show {
-  opacity: 1; /* Opacité à 1 lors de l'affichage */
-  transform: translateY(0); /* Translation vers la position initiale */
-}
-
-.hero-content.initial {
-  opacity: 1; /* Assure que l'opacité est 1 au chargement de la page */
-  transform: translateY(0); /* Assure que la position est initiale */
+  transition: 1s ease;
 }
 
 .hero-content h1 {
@@ -186,35 +166,12 @@ li {
   text-shadow: 1px 1px 10px black;
 }
 
-/* Masquer .name entre 0px et 550px */
-@media (max-width: 550px) {
+@media (min-width: 1470px & max-width: 1090px) {
   .name {
-    display: none;
-  }
+    display: none;}
 }
 
-/* Afficher .name pour les écrans entre 551px et 1089px */
-@media (min-width: 551px) and (max-width: 1089px) {
-  .name {
-    display: block;
-  }
-}
-
-/* Masquer .name entre 1090px et 1470px */
-@media (min-width: 1090px) and (max-width: 1470px) {
-  .name {
-    display: none;
-  }
-}
-
-/* Afficher .name pour les écrans >= 1471px */
-@media (min-width: 1471px) {
-  .name {
-    display: block;
-  }
-}
-
-@media (max-width: 1090px) {
+@media (max-width: 1089px) {
   .nav-links {
     display: none;
     position: absolute;
@@ -238,4 +195,5 @@ li {
   .burger {
     display: block;
   }
+    
 }

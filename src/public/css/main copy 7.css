@@ -8,17 +8,12 @@ body {
 
 header {
   background: rgba(255, 255, 255, 0.0); /* transparent background */
-  opacity: 0; /* Départ de l'opacité à 0 */
-  transition: opacity 5s ease; /* Transition d'opacité sur 5 secondes */
+  transition: background 0.25s ease;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000; /* Ensure the header is above other content */
   height: 80px; /* Ajustez cette valeur à la hauteur réelle de votre header */
-}
-
-header.visible {
-  opacity: 1; /* Opacité à 1 lors de l'affichage */
 }
 
 header.scrolled {
@@ -160,18 +155,11 @@ li {
   max-width: 550px;
   border-radius: 0.5rem;
   opacity: 0; /* Départ de l'opacité à 0 */
-  transform: translateY(100px); /* Départ de la translation vers le bas */
-  transition: opacity 2s ease, transform 2s ease; /* Transition d'opacité et de translation sur 2 secondes */
+  transition: opacity 6s ease; /* Transition d'opacité sur 2 secondes */
 }
 
 .hero-content.show {
   opacity: 1; /* Opacité à 1 lors de l'affichage */
-  transform: translateY(0); /* Translation vers la position initiale */
-}
-
-.hero-content.initial {
-  opacity: 1; /* Assure que l'opacité est 1 au chargement de la page */
-  transform: translateY(0); /* Assure que la position est initiale */
 }
 
 .hero-content h1 {
