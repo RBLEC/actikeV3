@@ -1,26 +1,22 @@
 
-<!-- Bouton du menu burger -->
-<div class="burger-menu">
-  <button id="burger" aria-label="Toggle menu" aria-expanded="false">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-</div>
-
+<!-- Bouton du menu burger 
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+-->
 
 <!-- Navigation du menu -->
-<nav id="navbar" class="navbar">
-  <ul>
-
-      <li><a href="#accueil">Accueil</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#realisations">Réalisations</a></li>
-      <li><a href="#temoignages">Témoignages</a></li>
-      <li><a href="#apropos">À propos</a></li>
-      <li><a href="#contact">Contact</a></li>
-
+    <ul class="nav-links">
+      <% data.siteContent.header.navItems.forEach(item => { %>
+        <li class="link"><a href="<%= item.link %>"><%= item.name %></a></li>
+      <% }) %>
     </ul>
-</nav>
+    <div class="">
+    <a href="<%= data.siteContent.header.cta.link %>" class="cta-button">
+      <%= data.siteContent.header.cta.text %>
+    </a>
+</div>
 
 

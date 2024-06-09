@@ -33,14 +33,15 @@
       }
     ],
     "cta": {
-      "text": "Get Started",
+      "text": "Protégez Votre Entreprise Maintenant !",
       "link": "#contact"
     }
   },
   "hero": {
-    "title": "Welcome to Actike",
-    "subtitle": "Your partner in digital transformation",
-    "cta": "Learn More"
+    "title": "Bienvenue chez Actike",
+    "subtitle": "Votre partenaire en transformation numérique",
+    "cta": "En savoir plus",
+    "bg": "bg1"
   },
   "about": {
     "description": "Actike is dedicated to providing top-notch digital solutions tailored to your needs. Our mission is to drive your success through innovative and sustainable technology."
