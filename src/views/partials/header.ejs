@@ -1,20 +1,33 @@
 <header>
+  <nav>
     <div class="branding">
-        <a href="/" class="logo">
-            <img 
-                src="images/logo1.webp" 
-                alt="Logo de l'entreprise 
-                    <%= data.enterprise[0].denomination %> 
-                    <%= data.enterprise[0].informations_legales.status %>">
+      <div class="logo">
+        <a href="/">
+        <img src="images/<%= data.siteContent.header.branding.logo %>.webp"
+            alt="Logo de l'entreprise
+                <%= data.enterprise[0].denomination %>
+                <%= data.enterprise[0].informations_legales.status %>.
+                <%= data.siteContent.header.branding.logoDescription %>">
         </a>
-        <h1 class="branding-name"><%= data.enterprise[0].denomination %></h1>
-      
-        <p class="branding-text">  <!--L'Excellence Numérique au Service de la Planète,<br> Rejoignez l'Aventure !--></p>
+      </div>
+      <div class="name">
+        <h1><%= data.siteContent.header.branding.name %></h1>
+        <p><%= data.siteContent.header.branding.slogan %></p>
+      </div>
     </div>
-        <nav class="bloc-nav">
-            <%- include('../partials/navigation') %> 
-        </nav>
-
-
-
+    <ul class="nav-links">
+      <% data.siteContent.header.navItems.forEach(item => { %>
+        <li><a href="<%= item.link %>"><%= item.name %></a></li>
+      <% }) %>
+    </ul>
+    <a 
+        href="<%= data.siteContent.header.cta.link %>" 
+        class="cta-button"><%= data.siteContent.header.cta.text %>
+    </a>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
 </header>

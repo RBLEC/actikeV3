@@ -62,3 +62,101 @@
         </div>
     </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- avec donnée dynamique -->
+
+
+<section id="hero">
+  <div class="hero-content">
+    <h1><%= data.siteContent.hero.title %></h1>
+    <p><%= data.siteContent.hero.subtitle %></p>
+    <a href="#contact" class="cta-button"><%= data.siteContent.hero.cta %></a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p><%= data.siteContent.about.description %></p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services-list">
+    <% data.siteContent.services.forEach(service => { %>
+      <div class="service-item">
+        <h3><%= service.name %></h3>
+        <p><%= service.description %></p>
+      </div>
+    <% }) %>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Our Work</h2>
+  <div class="portfolio-items">
+    <% data.siteContent.portfolio.forEach(item => { %>
+      <div class="portfolio-item">
+        <img src="<%= item.image %>" alt="<%= item.name %>">
+        <h3><%= item.name %></h3>
+        <p><%= item.description %></p>
+      </div>
+    <% }) %>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>What Our Clients Say</h2>
+  <div class="testimonials-list">
+    <% data.siteContent.testimonials.forEach(testimonial => { %>
+      <div class="testimonial-item">
+        <p>"<%= testimonial.quote %>"</p>
+        <h3>- <%= testimonial.name %></h3>
+      </div>
+    <% }) %>
+  </div>
+</section>
+<section id="team">
+  <h2>Meet Our Team</h2>
+  <div class="team-members">
+    <% data.siteContent.team.forEach(member => { %>
+      <div class="team-member">
+        <img src="<%= member.photo %>" alt="<%= member.name %>">
+        <h3><%= member.name %></h3>
+        <p><%= member.role %></p>
+      </div>
+    <% }) %>
+  </div>
+</section>
+
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form action="/send-message" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <button type="submit">Send</button>
+  </form>
+  <p>Email: contact@actike.com | Phone: (123) 456-7890</p>
+</section>
+

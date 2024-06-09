@@ -1,0 +1,131 @@
+{
+  "header": {
+    "branding": {
+      "logo": "ActikeLogo",
+      "logoDescription": "Le logo représente un concept de sécurité, symbolisé par un cadenas ouvert en blanc, placé au centre d'un bouclier stylisé aux couleurs bleu et vert. Le cadenas, avec une anse ouverte, suggère des thèmes de cybersécurité, de protection des données ou de confiance numérique. Le bouclier, divisé en sections distinctes par des lignes géométriques, renforce l'idée de défense et de solidité.",
+      "name": "Actike Solutions",
+      "slogan": "Sécurisez votre entreprise, protégez vos données"
+    },
+    "navItems": [
+      {
+        "name": "About",
+        "link": "#about"
+      },
+      {
+        "name": "Services",
+        "link": "#services"
+      },
+      {
+        "name": "Portfolio",
+        "link": "#portfolio"
+      },
+      {
+        "name": "Testimonials",
+        "link": "#testimonials"
+      },
+      {
+        "name": "Team",
+        "link": "#team"
+      },
+      {
+        "name": "Contact",
+        "link": "#contact"
+      }
+    ],
+    "cta": {
+      "text": "Get Started",
+      "link": "#contact"
+    }
+  },
+  "hero": {
+    "title": "Welcome to Actike",
+    "subtitle": "Your partner in digital transformation",
+    "cta": "Learn More"
+  },
+  "about": {
+    "description": "Actike is dedicated to providing top-notch digital solutions tailored to your needs. Our mission is to drive your success through innovative and sustainable technology."
+  },
+  "services": [
+    {
+      "name": "Web Development",
+      "description": "Building responsive and high-performing websites."
+    },
+    {
+      "name": "E-commerce Solutions",
+      "description": "Customized online stores that drive sales."
+    },
+    {
+      "name": "SEO Optimization",
+      "description": "Improving your website's visibility on search engines."
+    },
+    {
+      "name": "API Development",
+      "description": "Creating efficient and scalable APIs for your applications."
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Project One",
+      "image": "project1.jpg",
+      "description": "A complete web redesign for a leading company."
+    },
+    {
+      "name": "Project Two",
+      "image": "project2.jpg",
+      "description": "An innovative e-commerce platform for a new brand."
+    },
+    {
+      "name": "Project Three",
+      "image": "project3.jpg",
+      "description": "SEO and marketing campaign that boosted traffic."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Actike transformed our online presence!",
+      "name": "Client A"
+    },
+    {
+      "quote": "Professional and effective solutions.",
+      "name": "Client B"
+    },
+    {
+      "quote": "Our go-to partner for all things digital.",
+      "name": "Client C"
+    }
+  ],
+  "team": [
+    {
+      "name": "John Doe",
+      "role": "CEO",
+      "photo": "john.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "role": "CTO",
+      "photo": "jane.jpg"
+    },
+    {
+      "name": "Alice Johnson",
+      "role": "Project Manager",
+      "photo": "alice.jpg"
+    }
+  ],
+  "footer": {
+    "text": "© 2024 Actike. All rights reserved.",
+    "socialLinks": [
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com/actike"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/actike"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/company/actike"
+      }
+    ]
+  }
+}
