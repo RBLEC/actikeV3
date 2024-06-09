@@ -10,13 +10,23 @@
 <!-- Navigation du menu -->
     <ul class="nav-links">
       <% data.siteContent.header.navItems.forEach(item => { %>
-        <li class="link"><a href="<%= item.link %>"><%= item.name %></a></li>
+        <li class="link">
+          <a href="<%= item.link %>">
+            <%= item.name %>
+          </a>
+        </li>
       <% }) %>
+      <li class="cta-button">
+        <a href="<%= data.siteContent.header.cta.link %>">
+          <%= data.siteContent.header.cta.text %>
+        </a>
+      </li>
     </ul>
-    <div class="">
-    <a href="<%= data.siteContent.header.cta.link %>" class="cta-button">
+    <!--
+    <div class="cta-button">
+    <a href="<%= data.siteContent.header.cta.link %>">
       <%= data.siteContent.header.cta.text %>
     </a>
-</div>
+</div>-->
 
 

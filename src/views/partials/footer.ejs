@@ -1,21 +1,28 @@
 <footer>
-    <div>
 
-        <div class="footer-center">
-            <a href="/" class="logo-end">
-                <img src="images/logo_bg-WithOut.webp" alt="Logo de l'entreprise">
+    <div class="branding">
+        <div class="logo">
+            <a href="/">
+                <img class="img-logo" src="images/<%= data.siteContent.header.branding.logo %>.webp"
+                    alt="Logo de l'entreprise
+                        <%= data.enterprise[0].denomination %>
+                        <%= data.enterprise[0].informations_legales.status %>.
+                        <%= data.siteContent.header.branding.logoDescription %>"
+                >
             </a>
-            <h2> <%= data.enterprise[0].denomination %> </h2>
-            <p class="slogan">L'Excellence Numérique au Service de la Planète, </p>
-            <a class="cta-button" href="/contact">Rejoignez l'Aventure !</a>
+        </div>
+        <div class="name">
+            <h1><%= data.siteContent.header.branding.name %></h1>
+            <p><%= data.siteContent.header.branding.slogan %></p>
+        </div>
+    </div>
+
             <div class="ecoindex" >
                 <a href="https://www.ecoindex.fr/resultat/?id=<%= data.ecoindex.id %>#score-details" target="_blank" aria-label="Ecoindex Badge">
                     <img class="ecoindex-img light-theme" src="https://bff.ecoindex.fr/badge/?theme=dark&url=<%= data.ecoindex.url %>" alt="Ecoindex Badge dark">
                     <img class="ecoindex-img dark-theme" src="https://bff.ecoindex.fr/badge/?theme=light&url=<%= data.ecoindex.url %>" alt="Ecoindex Badge light" style="display:none;">
                 </a>
-              
             </div>
-        </div>
 
 
         <p class="copyright" id="copyright"> </p> 
