@@ -55,7 +55,7 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const header = document.querySelector("header");
-    const aboutSection = document.querySelector("#about");
+    const aboutSection = document.querySelector("#info-alert");
 
     window.addEventListener("scroll", function() {
       if (window.scrollY > aboutSection.offsetTop) {
@@ -67,25 +67,13 @@
   });
 </script>
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const header = document.querySelector('header');
-  header.classList.add('visible');
 
-  const heroContent = document.querySelector('.hero-content');
-  heroContent.classList.add('initial');
-
-  // Utilisez setTimeout pour ajouter la classe .show après un léger délai
-  setTimeout(() => {
-    heroContent.classList.add('show');
-    heroContent.classList.remove('initial');
-  }, 100); // Le délai peut être ajusté si nécessaire
-});
-
-</script>
 
 
   
   <script src="/js/burger.js" defer></script>
+  <script src="/js/carousel.js"></script>
+  <script src="/js/animationHeader.js"></script>
+  <script src="/js/targetNumber.js"></script>
 </body>
 </html>

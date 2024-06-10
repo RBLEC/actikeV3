@@ -1,16 +1,16 @@
 {
     "ecoindex": {
-        "height": 1080,
         "width": 1920,
-        "nodes": 535,
+        "url": "https://actike.com/",
+        "size": 7569.05,
         "requests": 53,
         "ges": 1.98,
         "ecoindex_version": "5.8.0",
         "page_type": null,
         "version": 1,
         "initial_total_results": 321658,
-        "url": "https://actike.com/",
-        "size": 7569.05,
+        "nodes": 535,
+        "height": 1080,
         "grade": "D",
         "score": 51,
         "water": 2.97,
@@ -243,20 +243,12 @@
                     "link": "#services"
                 },
                 {
-                    "name": "Portfolio",
-                    "link": "#portfolio"
-                },
-                {
-                    "name": "Testimonials",
-                    "link": "#testimonials"
-                },
-                {
-                    "name": "Team",
-                    "link": "#team"
-                },
-                {
                     "name": "Contact",
                     "link": "#contact"
+                },
+                {
+                    "name": "FAQ",
+                    "link": "/faq"
                 }
             ],
             "cta": {
@@ -299,42 +291,42 @@
             "description": "Découvrez les services que nous proposons pour aider votre entreprise à réussir dans un monde numérique en constante évolution.",
             "items": [
                 {
-                    "title": "Développement Web",
-                    "description": "Création de sites web performants et réactifs pour améliorer votre présence en ligne.",
-                    "icon": "path/to/web-development-icon.png"
+                    "title": "Audit de Sécurité Informatique",
+                    "description": "Inspection et évaluation des systèmes informatiques pour identifier les faiblesses et les risques potentiels.",
+                    "image": "audit-securite"
                 },
                 {
-                    "title": "Solutions E-commerce",
-                    "description": "Développement de boutiques en ligne personnalisées pour augmenter vos ventes.",
-                    "icon": "path/to/ecommerce-icon.png"
+                    "title": "Recommandations de Sécurité",
+                    "description": "Remise de rapports d'audit avec des préconisations détaillées pour améliorer la sécurité.",
+                    "image": "recommandations"
                 },
                 {
-                    "title": "SEO et Marketing Digital",
-                    "description": "Optimisation de votre visibilité sur les moteurs de recherche et campagnes marketing efficaces.",
-                    "icon": "path/to/seo-icon.png"
+                    "title": "Mise en Conformité",
+                    "description": "Mise en œuvre de solutions pour garantir la conformité aux normes de sécurité (ANSSI).",
+                    "image": "conformite"
                 },
                 {
-                    "title": "Développement d'API",
-                    "description": "Création d'API robustes et évolutives pour vos applications.",
-                    "icon": "path/to/api-icon.png"
+                    "title": "Tests de Sécurité",
+                    "description": "Réalisation de tests pour vérifier l’efficacité des mesures de sécurité mises en place.",
+                    "image": "tests"
+                },
+                {
+                    "title": "Formation et Sensibilisation",
+                    "description": "Programmes de formation pour développer une culture de la sécurité parmi les employés.",
+                    "image": "formation"
+                },
+                {
+                    "title": "Support et Assistance",
+                    "description": "Support technique disponible 24h/24, 7j/7 pour répondre aux urgences et aux besoins en continu.",
+                    "image": "support"
                 }
             ]
         },
         "portfolio": [
             {
-                "name": "Project One",
-                "image": "project1.jpg",
-                "description": "A complete web redesign for a leading company."
-            },
-            {
-                "name": "Project Two",
-                "image": "project2.jpg",
-                "description": "An innovative e-commerce platform for a new brand."
-            },
-            {
-                "name": "Project Three",
-                "image": "project3.jpg",
-                "description": "SEO and marketing campaign that boosted traffic."
+                "name": "",
+                "image": "",
+                "description": ""
             }
         ],
         "testimonials": [

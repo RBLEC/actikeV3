@@ -1,87 +1,5 @@
 
- <!--
- 
- <section id="home">
-        <div class="container">
-            <h1>Bienvenue chez Actike</h1>
-            <p>Pour des systèmes informatiques résilients et performants</p>
-            <img src="images/background.jpg" alt="Actike Background">
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2>À propos de nous</h2>
-            <p>Actike vous protège contre les cyberattaques.</p>
-        </div>
-    </section>
-
-    <section id="approach">
-        <div class="container">
-            <h2>Notre méthode d’approche</h2>
-            <div class="approach-item">
-                <h3>AUDIT</h3>
-                <p>Inspection et évaluation de la sécurité.</p>
-            </div>
-            <div class="approach-item">
-                <h3>RECOMMANDATIONS</h3>
-                <p>Rapport avec préconisations.</p>
-            </div>
-            <div class="approach-item">
-                <h3>MISE EN CONFORMITÉ</h3>
-                <p>Interventions pour garantir la conformité.</p>
-            </div>
-            <div class="approach-item">
-                <h3>TESTS</h3>
-                <p>Contrôle des opérations effectuées.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <h2>Services</h2>
-            <div class="service-item">
-                <h3>Protection et sécurité informatique</h3>
-                <p>Solutions sécurisées adaptées.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <form action="/send-email" method="post">
-                <label for="name">Nom:</label>
-                <input type="text" id="name" name="name">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-                <button type="submit">Envoyer</button>
-            </form>
-            <p>Numéro d’urgence : +33 (0)6 51 29 67 52</p>
-        </div>
-    </section>
-
-
--->
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- avec donnée dynamique -->
-
-
+<!-- section hero -->
 <section id="hero">
   <div class="hero-content">
     <h1><%= data.siteContent.hero.title %></h1>
@@ -90,6 +8,39 @@
   </div>
 </section>
 
+
+    <!-- section alert des risques -->
+    <section id="info-alert" class="info-alert">
+        <h2 class="title-v2">N’attendez pas de subir une cyberattaque !</h2>
+        <ul class="info">
+            <li class="info-item">
+                <div class="card">
+                    <img class="icon-email" src="/sprite-svg/email-1572-svgrepo-com.svg" alt="Email Icon">
+                    <strong class="counter" data-target="90">0%</strong>
+                </div>
+                <p>des cyberattaques passent par l’email</p>
+            </li>
+            <li class="info-item">
+                <div class="card">
+                    <img class="icon-close" src="/sprite-svg/close-circle-svgrepo-com.svg" alt="Email Icon">
+                    <strong class="counter" data-target="79">0%</strong>
+                </div>
+                <p>des attaques sont du phishing ou spearfishing</p>
+            </li>
+            <li class="info-item">
+                <div class="card">
+                    <img class="icon-info" src="/sprite-svg/info-svgrepo-com.svg" alt="Email Icon">
+                    <strong class="counter" data-target="45">0%</strong>
+                </div>
+                <p>de réduction des cyberattaques grâce à la formation</p>
+            </li>
+        </ul>
+    </section>
+    <script>
+
+    </script>
+
+<!-- section apropos -->
 <section id="about">
   <div class="about-content">
     <h2><%= data.siteContent.about.title %></h2>
@@ -107,22 +58,44 @@
 </section>
 
 
-<!---->
-<section id="services">
+
+<!-- section des services dans un carousel -->
+<section id="services" class="carousel-slide">
   <div class="services-content">
     <h2><%= data.siteContent.services.title %></h2>
     <p><%= data.siteContent.services.description %></p>
-    <div class="services-items">
-      <% data.siteContent.services.items.forEach(service => { %>
-        <div class="service-item">
-          <img src="<%= service.icon %>" alt="<%= service.title %>">
-          <h3><%= service.title %></h3>
-          <p><%= service.description %></p>
-        </div>
-      <% }) %>
+    <div class="carousel">
+      <button class="btn" id="prev">&#10096;</button>
+      <button class="btn" id="next">&#10097;</button>
+      <button class="btn" id="pause">Pause</button>
+      <ul>
+        <% data.siteContent.services.items.forEach((service, index) => { %>
+          <li class="slide <%= index === 0 ? 'active' : '' %>">
+            <img src="/images/<%= service.image %>.webp" alt="<%= service.title %>">
+            <div class="info-card">
+              <h3><%= service.title %></h3>
+              <p><%= service.description %></p>
+            </div>
+          </li>
+        <% }) %>
+      </ul>
+      <div class="indicators">
+        <% data.siteContent.services.items.forEach((service, index) => { %>
+          <span class="indicator <%= index === 0 ? 'active' : '' %>" data-slide="<%= index %>"></span>
+        <% }) %>
+      </div>
     </div>
   </div>
+  <a href="#contact" class="cta-button">Agissez Maintenant !</a>
 </section>
+
+
+
+
+
+  <!-- pas d'information 
+
+
 
 <section id="portfolio">
   <h2>Our Work</h2>
@@ -160,22 +133,55 @@
     <% }) %>
   </div>
 </section>
+-->
 
 
-<section id="contact">
-  <h2>Contact Us</h2>
-  <form action="/send-message" method="POST">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required>
-    
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required>
-    
-    <label for="message">Message</label>
-    <textarea id="message" name="message" required></textarea>
-    
-    <button type="submit">Send</button>
-  </form>
-  <p>Email: contact@actike.com | Phone: (123) 456-7890</p>
+
+
+
+<section class="form">
+    <div class="container-title">
+        <h2 id="contact" class="title-v2">Contactez-nous</h2>
+        <p>Notre équipe est à votre écoute pour répondre à vos besoins ou problématiques.</p>
+        <div class="form-contain">
+            <div class="stafe">
+                <img class="stafe-image2" src="/images/banner-big-845x684.webp" alt="une équipe en travail sur une table">
+            </div>
+            <div class="formulaire">
+                <form action="/envoyer-message" method="POST" class="contact-form">
+                    <div class="contact-info">
+                        <div class="form-group">
+                            <label for="name">Nom *</label>
+                            <input type="text" id="name" name="name" placeholder="DUPONT" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname">Prénom</label>
+                            <input type="text" id="firstname" name="firstname" placeholder="Martin" required>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="form-group">
+                            <label for="email">Adresse e-mail</label>
+                            <input type="email" id="email" name="email" placeholder="dupont.martin@exemple.fr" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="01 02 03 04 05">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder="Aide d'ugence " required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" placeholder="Votre message" cols="50" rows="7" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="send-message" type="submit">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </section>
-
