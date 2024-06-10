@@ -91,19 +91,36 @@
 </section>
 
 <section id="about">
-  <h2>About Us</h2>
-  <p><%= data.siteContent.about.description %></p>
+  <div class="about-content">
+    <h2><%= data.siteContent.about.title %></h2>
+    <p><%= data.siteContent.about.description %></p>
+    <div class="values">
+      <% data.siteContent.about.values.forEach(value => { %>
+        <div class="value-item">
+          <img src="images/<%= value.image %>.webp" alt="<%= value.imageDescription %>">
+          <h3><%= value.title %></h3>
+          <p><%= value.description %></p>
+        </div>
+      <% }) %>
+    </div>
+  </div>
 </section>
 
+
+<!---->
 <section id="services">
-  <h2>Our Services</h2>
-  <div class="services-list">
-    <% data.siteContent.services.forEach(service => { %>
-      <div class="service-item">
-        <h3><%= service.name %></h3>
-        <p><%= service.description %></p>
-      </div>
-    <% }) %>
+  <div class="services-content">
+    <h2><%= data.siteContent.services.title %></h2>
+    <p><%= data.siteContent.services.description %></p>
+    <div class="services-items">
+      <% data.siteContent.services.items.forEach(service => { %>
+        <div class="service-item">
+          <img src="<%= service.icon %>" alt="<%= service.title %>">
+          <h3><%= service.title %></h3>
+          <p><%= service.description %></p>
+        </div>
+      <% }) %>
+    </div>
   </div>
 </section>
 
