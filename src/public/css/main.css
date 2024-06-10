@@ -108,7 +108,7 @@ nav {
   content: "";
   display: block;
   height: 0.15rem;
-  background: #00A36C;
+  background: #008859;
   transform: scale(0);
   transition: transform 0.3s;
 }
@@ -127,7 +127,7 @@ li {
 .cta-button {
   text-decoration: none;
   color: #fff;
-  background: #00A36C; /* Vert émeraude pour les boutons */
+  background: #008859; /* Vert émeraude pour les boutons */
   padding: 10px 20px;
   border-radius: 2rem;
   border: solid 1px #fff;
@@ -135,9 +135,9 @@ li {
 }
 
 .cta-button:hover {
-  color: #00A36C;
+  color: #008859;
   background: #fff;
-  border: solid 1px #00A36C;
+  border: solid 1px #008859;
 }
 
 .link-cta {
@@ -157,7 +157,7 @@ li {
 .burger div {
   width: 25px;
   height: 3px;
-  background: #00A36C; /* Vert émeraude pour les icônes du burger */
+  background: #008859; /* Vert émeraude pour les icônes du burger */
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -598,7 +598,7 @@ h5 {
 }
 
 .send-message {
-    background-color: #00A36C; /* Vert émeraude */
+    background-color: #008859; /* Vert émeraude */
     color: #fff;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -701,6 +701,15 @@ font-weight: bold;
   height: 35px;
 }
 
+
+
+
+
+
+
+
+
+/*
 #footer {
   display: flex;
   flex-direction: column;
@@ -709,13 +718,13 @@ font-weight: bold;
 .footer-top {
   display: flex;
   flex-direction: row;
-  background-color: #002366;
+  background-color: #003366;
   color:  #fff;
 }
 .footer-top h1 {
   display: flex;
   flex-direction: row;
-  background-color: #002366;
+  background-color: #003366;
   color:  #fff;
 }
 .footer-top p {
@@ -724,7 +733,11 @@ font-weight: bold;
 
 
 .img-social {
-  width: 180px;
+  width: 150px;
+}
+.img-social-linkedin{
+  width: 137px;
+  padding: 5px;
 }
 
 .footer-branding{
@@ -751,7 +764,7 @@ font-weight: bold;
 }
 
 .footer-links a:hover {
-    color: #00A36C; /* Vert émeraude au survol */
+    color: #008859; 
 }
 
 .footer-logo {
@@ -761,4 +774,119 @@ font-weight: bold;
 
 .copyright{
   background-color: #121212;
+}
+*/
+
+
+
+/*********
+* Footer *
+*********/
+
+
+#footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  background-color: #003366; /* Bleu Nuit */
+  color: #FFFFFF; /* Blanc */
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.footer-top h1, .footer-top h2, .footer-top h5, .footer-top p {
+  color: #FFFFFF; /* Blanc */
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+.img-social {
+  width: 144px;
+  margin: 4px;
+}
+
+.img-social-linkedin {
+  width: 140px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.social h5 {
+  margin: 0.25rem;
+}
+
+.social-groupe{
+  display: flex;
+  flex-direction: row;
+}
+
+ .address, .social, .footer-links {
+  flex: 1;
+  margin: 10px;
+}
+.footer-branding {
+  flex: 2;
+  margin: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 0.5rem 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #FFFFFF; /* Blanc */
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #008859; /* Vert émeraude au survol */
+}
+
+.footer-copyright {
+  background-color: #121212;
+}
+
+.copyright {
+  background-color: #121212; /* Couleur sombre pour le texte de copyright */
+  color: #FFFFFF; /* Blanc */
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-credit, .ecoindex, .footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-credit p, .footer-copyright p {
+  margin: 0;
+}
+
+.ecoindex a {
+  display: block;
+  margin-top: 10px;
+}
+
+.footer-branding h5 {
+  margin: 0.5rem;
+}
+
+.urgence {
+  text-align: center;
+  margin: 1rem;
 }
