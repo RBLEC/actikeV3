@@ -1,37 +1,37 @@
 "seoConfig": {
   "404": {
     "url": "/404",
-    "pageTitle": "Page Introuvable - Actike",
-    "pageDescription": "Oups! La page que vous essayez d'atteindre ne peut être trouvée. Cela peut être dû à une adresse mal saisie ou à une page qui a été déplacée. Utilisez notre menu pour revenir à la bonne page ou contactez notre équipe de cybersécurité pour obtenir de l'aide.",
-    "keywords": "Actike, erreur, page introuvable, lien cassé, cybersécurité, aide technique",
+    "pageTitle": "Page Introuvable - Actike Cybersécurité",
+    "pageDescription": "Oups! La page que vous cherchez n'existe pas. Utilisez notre menu pour trouver la bonne page ou contactez notre équipe de cybersécurité pour obtenir de l'aide.",
+    "keywords": "Actike, erreur 404, page introuvable, lien cassé, cybersécurité, protection des données, assistance technique",
     "author": "Actike, Experts en Cybersécurité"
   },
   "500": {
     "url": "/500",
-    "pageTitle": "Erreur de Page - Actike",
-    "pageDescription": "Oups! Une erreur s'est produite. Cela peut être dû à une adresse mal saisie ou à une page qui a été déplacée. Utilisez notre menu pour revenir à la bonne page ou contactez notre équipe de cybersécurité pour obtenir de l'aide.",
-    "keywords": "Actike, erreur, page introuvable, lien cassé, cybersécurité, aide technique",
+    "pageTitle": "Erreur Interne - Actike Cybersécurité",
+    "pageDescription": "Oups! Une erreur interne est survenue. Utilisez notre menu pour revenir à la bonne page ou contactez notre équipe de cybersécurité pour obtenir de l'aide.",
+    "keywords": "Actike, erreur 500, page erreur, problème serveur, cybersécurité, assistance technique",
     "author": "Actike, Experts en Cybersécurité"
   },
   "home": {
     "url": "/",
-    "pageTitle": "Actike - Experts en Cybersécurité à Savoie et Haute-Savoie",
-    "pageDescription": "Actike, situé à Savoie et Haute-Savoie, protège les entreprises contre les cybermenaces avec des solutions de cybersécurité avancées. Assurez la sécurité de vos données et infrastructures.",
-    "keywords": "Actike, accueil, cybersécurité, protection des données, Savoie, Haute-Savoie, sécurité informatique, solutions de cybersécurité",
+    "pageTitle": "Actike - Experts en Cybersécurité en Savoie et Haute-Savoie",
+    "pageDescription": "Protégez votre entreprise contre les cybermenaces avec Actike. Nos experts en cybersécurité en Savoie et Haute-Savoie offrent des solutions avancées pour la sécurité des données et des infrastructures.",
+    "keywords": "Actike, cybersécurité, protection des données, Savoie, Haute-Savoie, sécurité informatique, solutions de cybersécurité, cybermenaces, audit sécurité",
     "author": "Actike, Experts en Cybersécurité"
   },
   "send-email": {
     "url": "/envoyer-email",
-    "pageTitle": "Envoyer un Message - Actike",
-    "pageDescription": "Envoyez un message à Actike pour discuter de vos besoins en cybersécurité. Nos experts en Savoie et Haute-Savoie répondront à toutes vos questions.",
-    "keywords": "Actike, envoyer un message, contact, cybersécurité, protection des données, Savoie, Haute-Savoie",
+    "pageTitle": "Contactez Actike - Experts en Cybersécurité",
+    "pageDescription": "Envoyez un message à Actike pour discuter de vos besoins en cybersécurité. Nos experts en Savoie et Haute-Savoie sont prêts à répondre à toutes vos questions.",
+    "keywords": "Actike, contact, cybersécurité, protection des données, Savoie, Haute-Savoie, solutions de sécurité, experts en cybersécurité",
     "author": "Actike, Experts en Cybersécurité"
   },
   "legalMentions": {
     "url": "/mentions-legales",
-    "pageTitle": "Mentions Légales de Actike - Engagement en Transparence et Conformité",
-    "pageDescription": "Découvrez les mentions légales de Actike, soulignant notre engagement en matière de transparence et de conformité légale dans le domaine de la cybersécurité. Nous respectons et adhérons aux normes de confidentialité, de protection des données et des droits des utilisateurs.",
-    "keywords": "Actike, mentions légales, conformité, transparence, cybersécurité, protection des données, politique de confidentialité, droits des utilisateurs",
-    "author": "Actike, Experts en Cybersécurité et Délégués à la Protection des Données"
+    "pageTitle": "Mentions Légales - Actike Cybersécurité",
+    "pageDescription": "Consultez les mentions légales de Actike, votre partenaire en cybersécurité en Savoie et Haute-Savoie. Nous nous engageons à respecter la transparence et la conformité légale.",
+    "keywords": "Actike, mentions légales, conformité, transparence, cybersécurité, protection des données, politique de confidentialité, droits des utilisateurs, Savoie, Haute-Savoie",
+    "author": "Actike, Experts en Cybersécurité et Protection des Données"
   }
 }
