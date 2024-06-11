@@ -1,0 +1,520 @@
+{
+    "ecoindex": {
+        "height": 1080,
+        "width": 1920,
+        "nodes": 535,
+        "requests": 53,
+        "ges": 1.98,
+        "ecoindex_version": "5.8.0",
+        "page_type": null,
+        "version": 1,
+        "initial_total_results": 321658,
+        "url": "https://actike.com/",
+        "size": 7569.05,
+        "grade": "D",
+        "score": 51,
+        "water": 2.97,
+        "date": "2024-06-08T10:41:12",
+        "id": "2ddf501a-57f9-4849-b98e-28f39ab03729",
+        "host": "actike.com",
+        "initial_ranking": 157871
+    },
+    "enterprise": [
+        {
+            "id": "3",
+            "denomination": "ACTIKE",
+            "siren_siege": "920078763",
+            "date_immatriculation": "06/10/2022",
+            "debut_activite": "2022",
+            "debut_activite2": "01/10/2022",
+            "fin_personne_morale": "05/10/2121",
+            "date_cloture": "3009",
+            "nature": "Commerciale, Libérale non règlementée",
+            "forme_juridique": "SARLU Société à responsabilité limitée à associé unique",
+            "activite_principale": "Conseil pour les affaires et autres conseils de gestion. Conseil et accompagnement en informatique et notamment en systèmes et logiciels informatiques, en technologies de l'information. Programmation informatique. Conception, développement, vente, administration et maintenance de tous types de produits informatiques et notamment de logiciels, d'applications web et mobiles. Mise à disposition de logiciel et applications. Perception et défense de droits d'auteurs. Commercialisation et maintenance de tous types de matériels et accessoires informatiques, et la réalisation du conseil lié et de toutes prestations liées à la gestion de ce matériel. La formation non continue dans les domaines sus-indiqués.",
+            "code_ape": "7022Z - Conseil pour les affaires et autres conseils de gestion",
+            "capital_social": "16000 EUR",
+            "adresse_siege": {
+                "rue": "5 RUE DE BEAUREGARD",
+                "code_postal": "74150",
+                "ville": "RUMILLY",
+                "pays": "FRANCE",
+                "complement_localisation": ""
+            },
+            "dirigeants_et_associes": [
+                {
+                    "nom_prenom": "OGER VIRGILE, RENE, GUISLAIN",
+                    "date_naissance": "07/1983",
+                    "commune_residence": "France"
+                },
+                {
+                    "nom_prenom": "VIEL WENCELAS",
+                    "date_naissance": "04/1978",
+                    "commune_residence": "France"
+                }
+            ],
+            "beneficiaires_effectifs": [
+                {
+                    "nom_prenom": "OGER VIRGILE, RENE, GUISLAIN",
+                    "nationalite": "Française",
+                    "nom_usage": "",
+                    "date_naissance": "07/1983",
+                    "pays_residence": "France",
+                    "capital_total": "50%",
+                    "droits_vote_total": "50%"
+                },
+                {
+                    "nom_prenom": "VIEL WENCELAS",
+                    "nationalite": "Française",
+                    "nom_usage": "",
+                    "date_naissance": "04/1978",
+                    "pays_residence": "France",
+                    "capital_total": "50%",
+                    "droits_vote_total": "50%"
+                }
+            ],
+            "etablissements": {
+                "type": "Siège et principal",
+                "date_debut_activite": "01/10/2022",
+                "siret": "92007876300017",
+                "code_ape": "7022Z - Conseil pour les affaires et autres conseils de gestion",
+                "origine_fonds": "Création",
+                "nature": "Commerciale, Libérale non règlementée",
+                "activite": "Conseil pour les affaires et autres conseils de gestion. Conseil et accompagnement en informatique et notamment en systèmes et logiciels informatiques, en technologies de l'information. Programmation informatique. Conception, développement, vente, administration et maintenance de tous types de produits informatiques et notamment de logiciels, d'applications web et mobiles. Mise à disposition de logiciel et applications. Perception et défense de droits d'auteurs. Commercialisation et maintenance de tous types de matériels et accessoires informatiques, et la réalisation du conseil lié et de toutes prestations liées à la gestion de ce matériel. La formation non continue dans les domaines sus-indiqués.",
+                "adresse": "5 RUE DE BEAUREGARD, 74150 RUMILLY - FRANCE",
+                "complement_localisation": ""
+            },
+            "contact": {
+                "personne": "Virgile",
+                "telephone": "+33 6 12 34 56 78",
+                "email": "virgile.oger@actike.com"
+            },
+            "site_web": "https://www.actike.com",
+            "informations_legales": {
+                "siret": "92007876300017",
+                "status": "SARL",
+                "rcs": "Annecy B 920 078 763",
+                "num_tva": "FR34920078763"
+            },
+            "social_link": {
+                "Github": {
+                    "name": "github",
+                    "url": "https://github.com/virgileoger"
+                },
+                "LinkedIn": {
+                    "name": "LinkedIn",
+                    "url": "https://www.linkedin.com/company/actike"
+                }
+            },
+            "ecoindexId": "2ddf501a-57f9-4849-b98e-28f39ab03729"
+        }
+    ],
+    "services": [
+        {
+            "title": "Développement de Sites Vitrines Personnalisés",
+            "description": "Offrez à votre entreprise une vitrine digitale à la hauteur de votre marque. Nos sites vitrines sur-mesure captivent votre audience dès le premier clic.",
+            "seoTitle": "Création de Sites Vitrines Personnalisés | BLEC Web",
+            "metaDescription": "Découvrez des sites vitrines personnalisés conçus par BLEC Web pour captiver votre audience. Nos designs uniques renforcent votre marque en ligne avec créativité et innovation.",
+            "icon": "site-vitrine"
+        },
+        {
+            "title": "Solutions E-commerce Sur-mesure",
+            "description": "Développement de plateformes e-commerce intuitives, sécurisées et personnalisées pour répondre à vos besoins spécifiques et ceux de vos clients.",
+            "seoTitle": "Solutions E-commerce Personnalisées | BLEC Web",
+            "metaDescription": "Optimisez votre commerce en ligne avec des solutions e-commerce sur-mesure par BLEC Web. Sécurité, personnalisation et expérience utilisateur intuitive sont notre credo.",
+            "icon": "e-commerce"
+        },
+        {
+            "title": "Applications Web Progressives (PWA)",
+            "description": "Exploitez le potentiel des PWA pour offrir une expérience utilisateur mobile fluide et rapide, renforçant l'engagement et la satisfaction client.",
+            "seoTitle": "Développement PWA Avancé | BLEC Web",
+            "metaDescription": "Embrassez l'avenir du web mobile avec les applications web progressives (PWA) de BLEC Web, conçues pour une performance rapide et une expérience utilisateur exceptionnelle.",
+            "icon": "pwa"
+        },
+        {
+            "title": "Optimisation SEO et Performance Web",
+            "description": "Améliorez votre visibilité en ligne et la vitesse de votre site avec nos stratégies d'optimisation SEO et de performance web, garantissant une expérience utilisateur de qualité.",
+            "seoTitle": "Optimisation SEO et Performance | BLEC Web",
+            "metaDescription": "Augmentez votre rang sur les moteurs de recherche et améliorez la vitesse de votre site avec BLEC Web. Expérience utilisateur supérieure et meilleures positions SEO assurées.",
+            "icon": "seo"
+        },
+        {
+            "title": "Développement d'APIs Personnalisées",
+            "description": "Facilitez l'intégration entre vos services avec des APIs personnalisées, conçues pour une efficacité et une flexibilité maximales.",
+            "seoTitle": "Développement d'APIs Personnalisées | BLEC Web",
+            "metaDescription": "Intégrez sans effort avec nos APIs personnalisées. BLEC Web vous offre des solutions API flexibles et puissantes pour une connectivité sans précédent.",
+            "icon": "api"
+        },
+        {
+            "title": "Maintenance et Support Technique",
+            "description": "Nos services de maintenance et de support garantissent la performance et la sécurité de vos solutions digitales, vous laissant vous concentrer sur votre activité.",
+            "seoTitle": "Maintenance et Support Technique | BLEC Web",
+            "metaDescription": "Assurez la continuité et la sécurité de vos opérations en ligne avec notre support technique et maintenance proactifs. BLEC Web est votre partenaire de confiance pour un support technique sans faille.",
+            "icon": "maintenance-support"
+        },
+        {
+            "title": "Audit et Conseil en Sécurité Web",
+            "description": "Renforcez la sécurité de vos applications web avec nos audits complets et conseils personnalisés, assurant la protection de vos données et celles de vos clients.",
+            "seoTitle": "Audit et Conseil en Sécurité Web | BLEC Web",
+            "metaDescription": "Sécurisez vos applications web contre les menaces en ligne avec nos services d'audit et de conseil en sécurité. BLEC Web vous aide à protéger vos données et celles de vos clients.",
+            "icon": "safe"
+        },
+        {
+            "title": "Branding et Identité Visuelle",
+            "description": "Développez une identité de marque forte avec notre accompagnement en branding et design visuel, pour une présence marquante et cohérente à travers tous vos canaux.",
+            "seoTitle": "Branding et Identité Visuelle | BLEC Web",
+            "metaDescription": "Marquez les esprits avec un branding et une identité visuelle distinctifs. BLEC Web renforce votre présence en ligne avec des stratégies de branding créatives et cohérentes.",
+            "icon": "branding"
+        },
+        {
+            "title": "Analyse et Rapports de Performance",
+            "description": "Optimisez vos stratégies digitales avec nos analyses de performance approfondies, vous aidant à prendre des décisions éclairées pour votre croissance en ligne.",
+            "seoTitle": "Analyse et Rapports de Performance | BLEC Web",
+            "metaDescription": "Prenez des décisions éclairées avec nos analyses et rapports de performance. Chez BLEC Web, nous transformons les données en insights actionnables pour booster votre stratégie digitale.",
+            "icon": "analyse"
+        },
+        {
+            "title": "Conseil en UX/UI Design",
+            "description": "Améliorez l’expérience et l’interface utilisateur de vos sites web et applications avec notre expertise en UX/UI design, pour une navigation intuitive et engageante.",
+            "seoTitle": "Conseil en UX/UI Design | BLEC Web",
+            "metaDescription": "Créez des expériences utilisateur inoubliables avec notre conseil en UX/UI design. BLEC Web est votre allié pour des interfaces utilisateurs intuitives et captivantes.",
+            "icon": "ui-ux"
+        },
+        {
+            "title": "Création de Contenu et Blogging",
+            "description": "Engagez votre audience et améliorez votre SEO avec du contenu créatif et pertinent, reflétant l’esprit de votre marque tout en attirant de nouveaux clients.",
+            "seoTitle": "Création de Contenu et Blogging | BLEC Web",
+            "metaDescription": "Captez l'attention avec un contenu créatif et augmentez votre visibilité avec notre expertise en blogging. BLEC Web crée des contenus qui reflètent votre marque et engagent votre audience.",
+            "icon": "blogging"
+        }
+    ],
+    "seoConfig": {
+        "404": {
+            "url": "/404",
+            "pageTitle": "Page Introuvable - Actike Cybersécurité",
+            "pageDescription": "Oups! La page que vous cherchez n'existe pas. Utilisez notre menu pour trouver la bonne page ou contactez notre équipe de cybersécurité pour obtenir de l'aide.",
+            "keywords": "Actike, erreur 404, page introuvable, lien cassé, cybersécurité, protection des données, assistance technique",
+            "author": "Actike, Experts en Cybersécurité"
+        },
+        "500": {
+            "url": "/500",
+            "pageTitle": "Erreur Interne - Actike Cybersécurité",
+            "pageDescription": "Oups! Une erreur interne est survenue. Utilisez notre menu pour revenir à la bonne page ou contactez notre équipe de cybersécurité pour obtenir de l'aide.",
+            "keywords": "Actike, erreur 500, page erreur, problème serveur, cybersécurité, assistance technique",
+            "author": "Actike, Experts en Cybersécurité"
+        },
+        "home": {
+            "url": "/",
+            "pageTitle": "Actike - Experts en Cybersécurité en Savoie et Haute-Savoie",
+            "pageDescription": "Protégez votre entreprise contre les cybermenaces avec Actike. Nos experts en cybersécurité en Savoie et Haute-Savoie offrent des solutions avancées pour la sécurité des données et des infrastructures.",
+            "keywords": "Actike, cybersécurité, protection des données, Savoie, Haute-Savoie, sécurité informatique, solutions de cybersécurité, cybermenaces, audit sécurité",
+            "author": "Actike, Experts en Cybersécurité"
+        },
+        "send-email": {
+            "url": "/envoyer-email",
+            "pageTitle": "Contactez Actike - Experts en Cybersécurité",
+            "pageDescription": "Envoyez un message à Actike pour discuter de vos besoins en cybersécurité. Nos experts en Savoie et Haute-Savoie sont prêts à répondre à toutes vos questions.",
+            "keywords": "Actike, contact, cybersécurité, protection des données, Savoie, Haute-Savoie, solutions de sécurité, experts en cybersécurité",
+            "author": "Actike, Experts en Cybersécurité"
+        },
+        "legalMentions": {
+            "url": "/mentions-legales",
+            "pageTitle": "Mentions Légales - Actike Cybersécurité",
+            "pageDescription": "Consultez les mentions légales de Actike, votre partenaire en cybersécurité en Savoie et Haute-Savoie. Nous nous engageons à respecter la transparence et la conformité légale.",
+            "keywords": "Actike, mentions légales, conformité, transparence, cybersécurité, protection des données, politique de confidentialité, droits des utilisateurs, Savoie, Haute-Savoie",
+            "author": "Actike, Experts en Cybersécurité et Protection des Données"
+        }
+    },
+    "siteContent": {
+        "header": {
+            "branding": {
+                "logo": "ActikeLogo",
+                "logoDescription": "Le logo représente un concept de sécurité, symbolisé par un cadenas ouvert en blanc, placé au centre d'un bouclier stylisé aux couleurs bleu et vert. Le cadenas, avec une anse ouverte, suggère des thèmes de cybersécurité, de protection des données ou de confiance numérique. Le bouclier, divisé en sections distinctes par des lignes géométriques, renforce l'idée de défense et de solidité.",
+                "name": "Actike Solutions",
+                "slogan": "Sécurisez votre entreprise, protégez vos données."
+            },
+            "navItems": [
+                {
+                    "name": "À propos",
+                    "link": "#about"
+                },
+                {
+                    "name": "Services",
+                    "link": "#services"
+                },
+                {
+                    "name": "Contact",
+                    "link": "#contact"
+                },
+                {
+                    "name": "FAQ",
+                    "link": "#faq"
+                }
+            ],
+            "cta": {
+                "text": "Protégez Votre Entreprise Maintenant !",
+                "link": "#contact"
+            }
+        },
+        "hero": {
+            "title": "Bienvenue chez Actike",
+            "subtitle": "Votre partenaire en sécurité numérique",
+            "cta": "En savoir plus",
+            "bg": "bg1"
+        },
+        "about": {
+            "title": "À propos de nous",
+            "description": "Actike Solutions est une entreprise spécialisée dans la transformation numérique des entreprises. Nous proposons des solutions innovantes pour aider nos clients à réussir dans un monde numérique en constante évolution. Notre mission est de fournir des services de qualité qui répondent aux besoins spécifiques de chaque client.",
+            "values": [
+                {
+                    "title": "Innovation",
+                    "description": "Nous croyons en l'importance de l'innovation pour rester compétitifs et offrir les meilleures solutions à nos clients.",
+                    "image": "Innovation",
+                    "imageDescription": "Logo stylisé représentant une ampoule entourée de motifs de circuits électroniques, avec des couleurs bleu et vert, symbolisant l'innovation, la technologie et la créativité."
+                },
+                {
+                    "title": "Engagement",
+                    "description": "Nous nous engageons à fournir des services de haute qualité et à satisfaire les besoins de nos clients.",
+                    "image": "Engagement",
+                    "imageDescription": "Logo stylisé représentant une poignée de main entourée de formes circulaires et de lignes courbes, avec des couleurs bleu et blanc, symbolisant la collaboration, la confiance et l'innovation."
+                },
+                {
+                    "title": "Durabilité",
+                    "description": "Nous intégrons des pratiques durables dans toutes nos opérations pour minimiser notre impact environnemental.",
+                    "image": "Durabilite",
+                    "imageDescription": "Logo stylisé représentant une plante verte avec trois feuilles, entourée de courbes bleues et vertes, symbolisant la croissance, la nature et la durabilité."
+                }
+            ]
+        },
+        "services": {
+            "title": "Nos services",
+            "description": "Découvrez les services que nous proposons pour aider votre entreprise à réussir dans un monde numérique en constante évolution.",
+            "items": [
+                {
+                    "title": "Audit de Sécurité Informatique",
+                    "description": "Inspection et évaluation des systèmes informatiques pour identifier les faiblesses et les risques potentiels.",
+                    "image": "audit-securite"
+                },
+                {
+                    "title": "Recommandations de Sécurité",
+                    "description": "Remise de rapports d'audit avec des préconisations détaillées pour améliorer la sécurité.",
+                    "image": "recommandations"
+                },
+                {
+                    "title": "Mise en Conformité",
+                    "description": "Mise en œuvre de solutions pour garantir la conformité aux normes de sécurité (ANSSI).",
+                    "image": "conformite"
+                },
+                {
+                    "title": "Tests de Sécurité",
+                    "description": "Réalisation de tests pour vérifier l’efficacité des mesures de sécurité mises en place.",
+                    "image": "tests"
+                },
+                {
+                    "title": "Formation et Sensibilisation",
+                    "description": "Programmes de formation pour développer une culture de la sécurité parmi les employés.",
+                    "image": "formation"
+                },
+                {
+                    "title": "Support et Assistance",
+                    "description": "Support technique disponible 24h/24, 7j/7 pour répondre aux urgences et aux besoins en continu.",
+                    "image": "support"
+                }
+            ]
+        },
+        "portfolio": [
+            {
+                "name": "",
+                "image": "",
+                "description": ""
+            }
+        ],
+        "testimonials": [
+            {
+                "quote": "Actike transformed our online presence!",
+                "name": "Client A"
+            },
+            {
+                "quote": "Professional and effective solutions.",
+                "name": "Client B"
+            },
+            {
+                "quote": "Our go-to partner for all things digital.",
+                "name": "Client C"
+            }
+        ],
+        "team": [
+            {
+                "name": "John Doe",
+                "role": "CEO",
+                "photo": "john.jpg"
+            },
+            {
+                "name": "Jane Smith",
+                "role": "CTO",
+                "photo": "jane.jpg"
+            },
+            {
+                "name": "Alice Johnson",
+                "role": "Project Manager",
+                "photo": "alice.jpg"
+            }
+        ],
+        "footer": {
+            "text": "© 2024 Actike. All rights reserved.",
+            "socialLinks": [
+                {
+                    "name": "Facebook",
+                    "url": "https://facebook.com/actike"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/actike"
+                },
+                {
+                    "name": "LinkedIn",
+                    "url": "https://linkedin.com/company/actike"
+                }
+            ]
+        }
+    },
+    "faq": {
+        "title": "Cybersécurité: FAQ pour comprendre les enjeux cruciaux",
+        "faq": [
+            {
+                "question": "Quelle est la différence entre sécurité informatique et cybersécurité ?",
+                "answer": [
+                    "La sécurité informatique et la cybersécurité partagent un objectif commun : protéger les personnes, les données et les équipements. Cependant, elles se concentrent sur des aspects différents et adoptent des approches distinctes.",
+                    {
+                        "points": [
+                            "La sécurité informatique (ou IT en anglais) inclut toutes les mesures prises par les entreprises pour protéger la confidentialité, l’intégrité et la disponibilité de leurs systèmes informatiques (ordinateurs, serveurs, réseaux, logiciels, bases de données) contre les attaques, les dommages ou les accès non autorisés. Cela comprend la mise en place de pare-feu, l’installation de logiciels antivirus, la configuration de politiques de sécurité, la gestion des accès, etc.",
+                            "La cybersécurité est un sous-ensemble de la sécurité informatique. Elle vise à protéger et à assurer l’intégrité des données, sensibles ou non, au sein d’une infrastructure contre le piratage ou les cyberattaques, c’est-à-dire toutes les menaces provenant d’Internet ou survenant via Internet."
+                        ]
+                    },
+                    "Pour en savoir plus, contactez les experts d'Actike."
+                ]
+            },
+            {
+                "question": "Quels sont les enjeux majeurs de la cybersécurité pour les entreprises ?",
+                "answer": [
+                    "Avec le développement exponentiel des données et du cloud, la cybersécurité est devenue centrale pour les entreprises. Le stockage de données sensibles, qu'elles appartiennent aux clients ou aux entreprises, est un bien précieux particulièrement exposé au risque de vol. Il est donc essentiel pour les entreprises de :",
+                    {
+                        "points": [
+                            "s’équiper de solutions informatiques performantes pour contrer les tentatives d’infraction et de vol de leurs données",
+                            "développer une culture de vigilance parmi le personnel, car l’erreur humaine peut être à l’origine de failles de sécurité."
+                        ]
+                    },
+                    "Les dommages subis par les entreprises en cas de cyberattaques (perte de bénéfices, interruption des échanges) peuvent aller jusqu’à compromettre leur pérennité.",
+                    "Pour mettre en place des solutions performantes, contactez les experts d'Actike."
+                ]
+            },
+            {
+                "question": "Quels sont les principaux risques informatiques ?",
+                "answer": [
+                    "Le matériel et les données informatiques d’une entreprise sont exposés à de nombreux risques qu’il est important d’identifier pour mettre en place les mesures préventives adéquates. Voici les principaux risques :",
+                    {
+                        "points": [
+                            "sinistre électrique (coupures, surtensions)",
+                            "vol physique (notamment les PC portables et autres appareils nomades)",
+                            "virus, programmes malveillants (chevaux de Troie, etc.), intrusions informatiques, piratages",
+                            "espionnage industriel",
+                            "cyberattaques",
+                            "erreurs de manipulation humaine",
+                            "pannes matérielles"
+                        ]
+                    },
+                    "La perte ou la destruction de matériels et de données informatiques peut avoir des conséquences graves pour une entreprise : interruption de l’activité, pertes financières, atteinte à l’image et à la réputation.",
+                    "Pour mettre en place des mesures préventives, contactez les experts d'Actike."
+                ]
+            },
+            {
+                "question": "Quelles sont les motivations des cybercriminels (ou hackers) ?",
+                "answer": [
+                    "Les cybercriminels sont motivés par divers facteurs, notamment :",
+                    {
+                        "points": [
+                            "le gain financier (chantage, extorsion d’argent via des rançongiciels, etc.)",
+                            "l’activisme politique ou idéologique (cyberattaques visant des gouvernements, des entreprises, etc.)",
+                            "l’espionnage industriel (vol d’informations sensibles, de secrets commerciaux ou de données stratégiques d’entreprises concurrentes)",
+                            "le sabotage technique (perturbation des sites web, des réseaux ou des services en ligne d’une entreprise sans réelle motivation)"
+                        ]
+                    },
+                    "Dans tous les cas, les entreprises victimes de cyberattaques subissent des préjudices financiers importants et/ou une atteinte à leur réputation.",
+                    "Pour vous prémunir contre le piratage, contactez les experts d'Actike."
+                ]
+            },
+            {
+                "question": "Qu’est-ce qu’une attaque par rançongiciel (ransomware) ?",
+                "answer": [
+                    "Il s’agit d’un logiciel malveillant qui bloque l’accès à un appareil (ordinateur, tablette, téléphone) ou à des données en les chiffrant. Le pirate informatique réclame alors le paiement d’une rançon pour débloquer les accès.",
+                    "Les moyens d’infection des appareils sont multiples. Le logiciel malveillant peut être installé sur un appareil lors de l’ouverture d’une pièce jointe, d’un clic sur un lien contenu dans un message frauduleux, de la navigation sur un site compromis, ou d’une intrusion dans le système.",
+                    "Pour mettre en place des solutions contre les rançongiciels, contactez les experts d'Actike."
+                ]
+            },
+            {
+                "question": "Quelles sont les entreprises concernées par la cybersécurité ?",
+                "answer": [
+                    "Contrairement aux idées reçues, la cybersécurité ne concerne pas seulement les grandes structures. Toutes les entreprises sont concernées, quelle que soit leur taille, leur secteur d’activité ou leur emplacement géographique, dès lors qu’elles utilisent des technologies de l’information et stockent des données en ligne.",
+                    "Pour un audit de votre système informatique, contactez les experts d'Actike."
+                ]
+            },
+            {
+                "question": "Qu’est-ce qu’une attaque par hameçonnage (phishing) ?",
+                "answer": [
+                    "Il s’agit d’un SMS, mail ou appel frauduleux visant à tromper la victime pour l’inciter à communiquer des données personnelles (identifiant, mot de passe, identité, adresse, données bancaires) en se faisant passer pour un tiers de confiance (banque, administration, livreur, etc.).",
+                    "Pour mettre en place des solutions contre le phishing, contactez les experts d'Actike."
+                ]
+            },
+            {
+                "question": "Quels sont les équipements les plus vulnérables aux cyberattaques ?",
+                "answer": [
+                    "Tous les appareils connectés à Internet sont des cibles potentielles de piratage : ordinateurs, smartphones, tablettes, écouteurs sans fil, appareils de domotique (assistants personnels, serrures connectées, thermostats intelligents), véhicules connectés, équipements médicaux connectés, serveurs, etc.",
+                    "Pour sécuriser votre matériel informatique, contactez les experts d'Actike."
+                ]
+            },
+            {
+                "question": "Quelles sont les règles simples pour protéger ses données personnelles sur Internet ?",
+                "answer": [
+                    "Les données personnelles des internautes représentent une mine d’or pour les cybercriminels. Il existe quelques règles simples, nécessaires mais non suffisantes, pour se prémunir face aux cybermenaces :",
+                    {
+                        "points": [
+                            "ne rien poster qui pourrait porter préjudice à l’utilisateur (dates de vacances, etc.)",
+                            "vérifier la source des sites sur lesquels sont effectuées les transactions",
+                            "utiliser des mots de passe complexes",
+                            "utiliser un logiciel antivirus payant, seul moyen d’assurer une protection efficace."
+                        ]
+                    },
+                    "Pour installer des logiciels professionnels, contactez les experts d'Actike."
+                ]
+            },
+            {
+                "question": "Quels sont les chiffres clés de la cybersécurité ?",
+                "answer": [
+                    "De nombreuses statistiques sont régulièrement publiées par des organismes comme l’Agence nationale de la sécurité des systèmes d’information (ANSSI), le Club des Experts de la Sécurité de l’Information et du Numérique (CESIN), ou encore les compagnies d’assurances.",
+                    "Toutes les données confirment que la cybersécurité est un enjeu crucial pour les entreprises, au même titre que la sécurité des personnes, des biens ou la sécurité incendie. Voici quelques chiffres pour illustrer ces propos :",
+                    {
+                        "points": [
+                            "1 entreprise sur 2 aurait été victime d’une cyberattaque en 2021",
+                            "une entreprise perd en moyenne 27% de son chiffre d’affaires annuel pendant qu’elle remet son système informatique en état",
+                            "69% des sociétés ciblées par les cyberattaques sont des TPE/PME",
+                            "60% des PME victimes de cyberattaques ne parviennent pas à se relever et font faillite dans les 18 mois après l’attaque",
+                            "47% des télétravailleurs sont piégés par des tentatives de phishing",
+                            "le coût médian d’une cyberattaque pour une entreprise est de 50 000€",
+                            "les mots de passe les plus populaires peuvent être piratés en moins d’une seconde"
+                        ]
+                    },
+                    "Pour mettre en place des solutions résilientes et performantes dans votre entreprise, contactez les experts d'Actike.",
+                    "(*) Source : Baromètre de la cybersécurité en entreprise CESIN 2022"
+                ]
+            },
+            {
+                "question": "Quelles sont les solutions proposées par Actike ?",
+                "answer": [
+                    "Actike, expert en cybersécurité, accompagne les entreprises de Savoie et Haute-Savoie dans la protection de leurs données et de leurs infrastructures grâce à une méthode de travail éprouvée, reconnue par ses clients : audit technique, recommandations, mise en conformité, tests et suivi.",
+                    "Actike assure la sécurisation et la performance de vos systèmes d’information en suivant les recommandations de l’Agence Nationale de Sécurité des Systèmes d’Information (ANSSI).",
+                    "N’attendez pas de subir une cyberattaque ou un ralentissement de votre système pour mettre en place des solutions professionnelles et adaptées. Contactez les experts d'Actike."
+                ]
+            }
+        ]
+    }
+}

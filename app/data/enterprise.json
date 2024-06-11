@@ -1,0 +1,90 @@
+[
+  {
+    "id": "3",
+    "denomination": "ACTIKE",
+    "siren_siege": "920078763",
+    "date_immatriculation": "06/10/2022",
+    "debut_activite": "2022",
+    "debut_activite2": "01/10/2022",
+    "fin_personne_morale": "05/10/2121",
+    "date_cloture": "3009",
+    "nature": "Commerciale, Libérale non règlementée",
+    "forme_juridique": "SARLU Société à responsabilité limitée à associé unique",
+    "activite_principale": "Conseil pour les affaires et autres conseils de gestion. Conseil et accompagnement en informatique et notamment en systèmes et logiciels informatiques, en technologies de l'information. Programmation informatique. Conception, développement, vente, administration et maintenance de tous types de produits informatiques et notamment de logiciels, d'applications web et mobiles. Mise à disposition de logiciel et applications. Perception et défense de droits d'auteurs. Commercialisation et maintenance de tous types de matériels et accessoires informatiques, et la réalisation du conseil lié et de toutes prestations liées à la gestion de ce matériel. La formation non continue dans les domaines sus-indiqués.",
+    "code_ape": "7022Z - Conseil pour les affaires et autres conseils de gestion",
+    "capital_social": "16000 EUR",
+    "adresse_siege": {
+      "rue": "5 RUE DE BEAUREGARD",
+      "code_postal": "74150",
+      "ville": "RUMILLY",
+      "pays": "FRANCE",
+      "complement_localisation": ""
+    },
+    "dirigeants_et_associes": [
+      {
+        "nom_prenom": "OGER VIRGILE, RENE, GUISLAIN",
+        "date_naissance": "07/1983",
+        "commune_residence": "France"
+      },
+      {
+        "nom_prenom": "VIEL WENCELAS",
+        "date_naissance": "04/1978",
+        "commune_residence": "France"
+      }
+    ],
+    "beneficiaires_effectifs": [
+      {
+        "nom_prenom": "OGER VIRGILE, RENE, GUISLAIN",
+        "nationalite": "Française",
+        "nom_usage": "",
+        "date_naissance": "07/1983",
+        "pays_residence": "France",
+        "capital_total": "50%",
+        "droits_vote_total": "50%"
+      },
+      {
+        "nom_prenom": "VIEL WENCELAS",
+        "nationalite": "Française",
+        "nom_usage": "",
+        "date_naissance": "04/1978",
+        "pays_residence": "France",
+        "capital_total": "50%",
+        "droits_vote_total": "50%"
+      }
+    ],
+    "etablissements": {
+      "type": "Siège et principal",
+      "date_debut_activite": "01/10/2022",
+      "siret": "92007876300017",
+      "code_ape": "7022Z - Conseil pour les affaires et autres conseils de gestion",
+      "origine_fonds": "Création",
+      "nature": "Commerciale, Libérale non règlementée",
+      "activite": "Conseil pour les affaires et autres conseils de gestion. Conseil et accompagnement en informatique et notamment en systèmes et logiciels informatiques, en technologies de l'information. Programmation informatique. Conception, développement, vente, administration et maintenance de tous types de produits informatiques et notamment de logiciels, d'applications web et mobiles. Mise à disposition de logiciel et applications. Perception et défense de droits d'auteurs. Commercialisation et maintenance de tous types de matériels et accessoires informatiques, et la réalisation du conseil lié et de toutes prestations liées à la gestion de ce matériel. La formation non continue dans les domaines sus-indiqués.",
+      "adresse": "5 RUE DE BEAUREGARD, 74150 RUMILLY - FRANCE",
+      "complement_localisation": ""
+    },
+    "contact": {
+      "personne": "Virgile",
+      "telephone": "+33 6 12 34 56 78",
+      "email": "virgile.oger@actike.com"
+    },
+    "site_web": "https://www.actike.com",
+    "informations_legales": {
+      "siret": "92007876300017",
+      "status": "SARL",
+      "rcs": "Annecy B 920 078 763",
+      "num_tva": "FR34920078763"
+    },
+    "social_link": {
+      "Github": {
+        "name": "github",
+        "url": "https://github.com/virgileoger"
+      },
+      "LinkedIn": {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/company/actike"
+      }
+    },
+    "ecoindexId" : "2ddf501a-57f9-4849-b98e-28f39ab03729"
+  }
+]

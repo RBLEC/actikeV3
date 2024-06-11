@@ -1,0 +1,28 @@
+<header>
+    <div class="header-bloc">
+        <div class="branding">
+            <div class="logo">
+                <a href="/">
+                    <img class="img-logo" src="images/<%= data.siteContent.header.branding.logo %>.webp"
+                        alt="Logo de l'entreprise
+                            <%= data.enterprise[0].denomination %>
+                            <%= data.enterprise[0].informations_legales.status %>.
+                            <%= data.siteContent.header.branding.logoDescription %>"
+                    >
+                </a>
+            </div>
+            <div class="name">
+                <h1 class="name-title"><%= data.siteContent.header.branding.name %></h1>
+                <p class="name-slogan"><%= data.siteContent.header.branding.slogan %></p>
+            </div>
+        </div>
+        <nav class="nav-bloc">
+            <%- include('../partials/navigation') %> 
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </div>
+</header>

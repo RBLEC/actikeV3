@@ -1,0 +1,236 @@
+
+<!-- section hero -->
+<section id="hero">
+  <div class="hero-content">
+    <h1><%= data.siteContent.hero.title %></h1>
+    <p><%= data.siteContent.hero.subtitle %></p>
+    <a href="#contact" class="cta-button"><%= data.siteContent.hero.cta %></a>
+  </div>
+</section>
+
+
+    <!-- section alert des risques -->
+    <section id="info-alert" class="info-alert">
+        <h2 class="title-v2">N’attendez pas de subir une cyberattaque !</h2>
+        <ul class="info">
+            <li class="info-item">
+                <div class="card">
+                    <img class="icon-email" src="/sprite-svg/email-1572-svgrepo-com.svg" alt="Email Icon">
+                    <strong class="counter" data-target="90">0%</strong>
+                </div>
+                <p>des cyberattaques passent par l’email</p>
+            </li>
+            <li class="info-item">
+                <div class="card">
+                    <img class="icon-close" src="/sprite-svg/close-circle-svgrepo-com.svg" alt="Email Icon">
+                    <strong class="counter" data-target="79">0%</strong>
+                </div>
+                <p>des attaques sont du phishing ou spearfishing</p>
+            </li>
+            <li class="info-item">
+                <div class="card">
+                    <img class="icon-info" src="/sprite-svg/info-svgrepo-com.svg" alt="Email Icon">
+                    <strong class="counter" data-target="45">0%</strong>
+                </div>
+                <p>de réduction des cyberattaques grâce à la formation</p>
+            </li>
+        </ul>
+    </section>
+    <script>
+
+    </script>
+
+<!-- section apropos -->
+<section id="about">
+  <div class="about-content">
+    <h2><%= data.siteContent.about.title %></h2>
+    <p><%= data.siteContent.about.description %></p>
+    <div class="values">
+      <% data.siteContent.about.values.forEach(value => { %>
+        <div class="value-item">
+          <img src="images/<%= value.image %>.webp" alt="<%= value.imageDescription %>">
+          <h3><%= value.title %></h3>
+          <p><%= value.description %></p>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- section des services dans un carousel -->
+<section id="services" class="carousel-slide">
+  <div class="services-content">
+    <h2><%= data.siteContent.services.title %></h2>
+    <p><%= data.siteContent.services.description %></p>
+    <div class="carousel">
+      <button class="btn" id="prev">&#10096;</button>
+      <button class="btn" id="next">&#10097;</button>
+      <button class="btn" id="pause">Pause</button>
+      <ul>
+        <% data.siteContent.services.items.forEach((service, index) => { %>
+          <li class="slide <%= index === 0 ? 'active' : '' %>">
+            <img src="/images/<%= service.image %>.webp" alt="<%= service.title %>">
+            <div class="info-card">
+              <h3><%= service.title %></h3>
+              <p><%= service.description %></p>
+            </div>
+          </li>
+        <% }) %>
+      </ul>
+      <div class="indicators">
+        <% data.siteContent.services.items.forEach((service, index) => { %>
+          <span class="indicator <%= index === 0 ? 'active' : '' %>" data-slide="<%= index %>"></span>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+  <a href="#contact" class="cta-button">Agissez Maintenant !</a>
+</section>
+
+
+
+
+
+  <!-- pas d'information 
+
+
+
+<section id="portfolio">
+  <h2>Our Work</h2>
+  <div class="portfolio-items">
+    <% data.siteContent.portfolio.forEach(item => { %>
+      <div class="portfolio-item">
+        <img src="<%= item.image %>" alt="<%= item.name %>">
+        <h3><%= item.name %></h3>
+        <p><%= item.description %></p>
+      </div>
+    <% }) %>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>What Our Clients Say</h2>
+  <div class="testimonials-list">
+    <% data.siteContent.testimonials.forEach(testimonial => { %>
+      <div class="testimonial-item">
+        <p>"<%= testimonial.quote %>"</p>
+        <h3>- <%= testimonial.name %></h3>
+      </div>
+    <% }) %>
+  </div>
+</section>
+<section id="team">
+  <h2>Meet Our Team</h2>
+  <div class="team-members">
+    <% data.siteContent.team.forEach(member => { %>
+      <div class="team-member">
+        <img src="<%= member.photo %>" alt="<%= member.name %>">
+        <h3><%= member.name %></h3>
+        <p><%= member.role %></p>
+      </div>
+    <% }) %>
+  </div>
+</section>
+-->
+
+
+
+
+
+<section class="form">
+    <div class="container-title">
+        <h2 id="contact" class="title-v2">Contactez-nous</h2>
+        <p>Notre équipe est à votre écoute pour répondre à vos besoins ou problématiques.</p>
+        <div class="form-contain">
+            <div class="stafe">
+                <img class="stafe-image2" src="/images/banner-big-845x684.webp" alt="une équipe en travail sur une table">
+            </div>
+            <div class="formulaire">
+                <form action="/envoyer-message" method="POST" class="contact-form">
+                    <div class="contact-info">
+                        <div class="form-group">
+                            <label for="name">Nom *</label>
+                            <input type="text" id="name" name="name" placeholder="DUPONT" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname">Prénom</label>
+                            <input type="text" id="firstname" name="firstname" placeholder="Martin" required>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="form-group">
+                            <label for="email">Adresse e-mail</label>
+                            <input type="email" id="email" name="email" placeholder="dupont.martin@exemple.fr" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="01 02 03 04 05">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder="Aide d'ugence " required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" placeholder="Votre message" cols="50" rows="7" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="send-message" type="submit">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- section FAQ -->
+<section id="faq">
+  <h2><%= data.faq.title %></h2>
+  <div class="faq-container">
+    <% data.faq.faq.forEach(item => { %>
+      <div class="faq-article">
+        <button class="accordion"><%= item.question %></button>
+        <div class="panel">
+          <% if (Array.isArray(item.answer)) { %>
+            <% item.answer.forEach(answerPart => { %>
+              <% if (typeof answerPart === 'string') { %>
+                <p class="faq-article"><%= answerPart %></p>
+              <% } else if (Array.isArray(answerPart.points)) { %>
+                <ul class="faq-listes">
+                  <% answerPart.points.forEach(point => { %>
+                    <li class="faq-liste"><%= point %></li>
+                  <% }) %>
+                </ul>
+              <% } %>
+            <% }) %>
+          <% } else { %>
+            <p class="faq-article"><%= item.answer %></p>
+          <% } %>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+
+
+
+
+
+  <!-- CTA Section -->
+  <div class="faq-cta">
+    <h3>Vous avez d'autres questions ?</h3>
+    <p>Contactez nos experts pour obtenir des réponses à toutes vos questions sur la cybersécurité.</p>
+    <a href="#contact" class="cta-button">Contactez-nous</a>
+  </div>
+
+
+
+
+</section>

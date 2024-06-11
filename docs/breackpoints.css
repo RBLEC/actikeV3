@@ -1,0 +1,52 @@
+/* Très petits écrans (téléphones en mode portrait) */
+@media only screen and (max-width: 320px) {
+    /* Styles pour écrans jusqu'à 320px */
+}
+
+@media only screen and (max-width: 360px) {
+    /* Styles pour écrans jusqu'à 360px */
+}
+
+/* Petits écrans (téléphones en mode paysage et plus grands téléphones en mode portrait) */
+@media only screen and (max-width: 480px) {
+    /* Styles pour écrans jusqu'à 480px */
+}
+
+@media only screen and (max-width: 600px) {
+    /* Styles pour écrans jusqu'à 600px */
+}
+
+/* Tablettes et petits ordinateurs portables/écrans */
+@media only screen and (max-width: 768px) {
+    /* Styles pour écrans jusqu'à 768px */
+}
+
+@media only screen and (max-width: 1024px) {
+    /* Styles pour écrans jusqu'à 1024px */
+}
+
+/* Ordinateurs de bureau et écrans plus grands */
+@media only screen and (max-width: 1280px) {
+    /* Styles pour écrans jusqu'à 1280px */
+}
+
+@media only screen and (max-width: 1366px) {
+    /* Styles pour écrans jusqu'à 1366px */
+}
+
+@media only screen and (max-width: 1440px) {
+    /* Styles pour écrans jusqu'à 1440px */
+}
+
+@media only screen and (max-width: 1600px) {
+    /* Styles pour écrans jusqu'à 1600px */
+}
+
+@media only screen and (max-width: 1920px) {
+    /* Styles pour écrans jusqu'à 1920px */
+}
+
+/* Écrans très larges */
+@media only screen and (min-width: 2560px) {
+    /* Styles pour écrans de 2560px et plus */
+}

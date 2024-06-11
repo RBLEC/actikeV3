@@ -1,0 +1,153 @@
+{
+  "header": {
+    "branding": {
+      "logo": "ActikeLogo",
+      "logoDescription": "Le logo représente un concept de sécurité, symbolisé par un cadenas ouvert en blanc, placé au centre d'un bouclier stylisé aux couleurs bleu et vert. Le cadenas, avec une anse ouverte, suggère des thèmes de cybersécurité, de protection des données ou de confiance numérique. Le bouclier, divisé en sections distinctes par des lignes géométriques, renforce l'idée de défense et de solidité.",
+      "name": "Actike Solutions",
+      "slogan": "Sécurisez votre entreprise, protégez vos données."
+    },
+    "navItems": [
+      {
+        "name": "À propos",
+        "link": "#about"
+      },
+      {
+        "name": "Services",
+        "link": "#services"
+      },
+      {
+        "name": "Contact",
+        "link": "#contact"
+      },
+      {
+        "name": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "cta": {
+      "text": "Protégez Votre Entreprise Maintenant !",
+      "link": "#contact"
+    }
+  },
+  "hero": {
+    "title": "Bienvenue chez Actike",
+    "subtitle": "Votre partenaire en sécurité numérique",
+    "cta": "En savoir plus",
+    "bg": "bg1"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "description": "Actike Solutions est une entreprise spécialisée dans la transformation numérique des entreprises. Nous proposons des solutions innovantes pour aider nos clients à réussir dans un monde numérique en constante évolution. Notre mission est de fournir des services de qualité qui répondent aux besoins spécifiques de chaque client.",
+    "values": [
+      {
+        "title": "Innovation",
+        "description": "Nous croyons en l'importance de l'innovation pour rester compétitifs et offrir les meilleures solutions à nos clients.",
+        "image": "Innovation",
+        "imageDescription": "Logo stylisé représentant une ampoule entourée de motifs de circuits électroniques, avec des couleurs bleu et vert, symbolisant l'innovation, la technologie et la créativité."
+      },
+      {
+        "title": "Engagement",
+        "description": "Nous nous engageons à fournir des services de haute qualité et à satisfaire les besoins de nos clients.",
+        "image": "Engagement",
+        "imageDescription": "Logo stylisé représentant une poignée de main entourée de formes circulaires et de lignes courbes, avec des couleurs bleu et blanc, symbolisant la collaboration, la confiance et l'innovation."
+      },
+      {
+        "title": "Durabilité",
+        "description": "Nous intégrons des pratiques durables dans toutes nos opérations pour minimiser notre impact environnemental.",
+        "image": "Durabilite",
+        "imageDescription": "Logo stylisé représentant une plante verte avec trois feuilles, entourée de courbes bleues et vertes, symbolisant la croissance, la nature et la durabilité."
+      }
+    ]
+  },
+  "services": {
+    "title": "Nos services",
+    "description": "Découvrez les services que nous proposons pour aider votre entreprise à réussir dans un monde numérique en constante évolution.",
+    "items": [
+      {
+        "title": "Audit de Sécurité Informatique",
+        "description": "Inspection et évaluation des systèmes informatiques pour identifier les faiblesses et les risques potentiels.",
+        "image": "audit-securite"
+      },
+      {
+        "title": "Recommandations de Sécurité",
+        "description": "Remise de rapports d'audit avec des préconisations détaillées pour améliorer la sécurité.",
+        "image": "recommandations"
+      },
+      {
+        "title": "Mise en Conformité",
+        "description": "Mise en œuvre de solutions pour garantir la conformité aux normes de sécurité (ANSSI).",
+        "image": "conformite"
+      },
+      {
+        "title": "Tests de Sécurité",
+        "description": "Réalisation de tests pour vérifier l’efficacité des mesures de sécurité mises en place.",
+        "image": "tests"
+      },
+      {
+        "title": "Formation et Sensibilisation",
+        "description": "Programmes de formation pour développer une culture de la sécurité parmi les employés.",
+        "image": "formation"
+      },
+      {
+        "title": "Support et Assistance",
+        "description": "Support technique disponible 24h/24, 7j/7 pour répondre aux urgences et aux besoins en continu.",
+        "image": "support"
+      }
+    ]
+  },
+  "portfolio": [
+    {
+      "name": "",
+      "image": "",
+      "description": ""
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Actike transformed our online presence!",
+      "name": "Client A"
+    },
+    {
+      "quote": "Professional and effective solutions.",
+      "name": "Client B"
+    },
+    {
+      "quote": "Our go-to partner for all things digital.",
+      "name": "Client C"
+    }
+  ],
+  "team": [
+    {
+      "name": "John Doe",
+      "role": "CEO",
+      "photo": "john.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "role": "CTO",
+      "photo": "jane.jpg"
+    },
+    {
+      "name": "Alice Johnson",
+      "role": "Project Manager",
+      "photo": "alice.jpg"
+    }
+  ],
+  "footer": {
+    "text": "© 2024 Actike. All rights reserved.",
+    "socialLinks": [
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com/actike"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/actike"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/company/actike"
+      }
+    ]
+  }
+}

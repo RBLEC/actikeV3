@@ -1,0 +1,81 @@
+{
+  "services": [
+    {
+      "title": "Développement de Sites Vitrines Personnalisés",
+      "description": "Offrez à votre entreprise une vitrine digitale à la hauteur de votre marque. Nos sites vitrines sur-mesure captivent votre audience dès le premier clic.",
+      "seoTitle": "Création de Sites Vitrines Personnalisés | BLEC Web",
+      "metaDescription": "Découvrez des sites vitrines personnalisés conçus par BLEC Web pour captiver votre audience. Nos designs uniques renforcent votre marque en ligne avec créativité et innovation.",
+      "icon": "site-vitrine"
+    },
+    {
+      "title": "Solutions E-commerce Sur-mesure",
+      "description": "Développement de plateformes e-commerce intuitives, sécurisées et personnalisées pour répondre à vos besoins spécifiques et ceux de vos clients.",
+      "seoTitle": "Solutions E-commerce Personnalisées | BLEC Web",
+      "metaDescription": "Optimisez votre commerce en ligne avec des solutions e-commerce sur-mesure par BLEC Web. Sécurité, personnalisation et expérience utilisateur intuitive sont notre credo.",
+      "icon": "e-commerce"
+    },
+    {
+      "title": "Applications Web Progressives (PWA)",
+      "description": "Exploitez le potentiel des PWA pour offrir une expérience utilisateur mobile fluide et rapide, renforçant l'engagement et la satisfaction client.",
+      "seoTitle": "Développement PWA Avancé | BLEC Web",
+      "metaDescription": "Embrassez l'avenir du web mobile avec les applications web progressives (PWA) de BLEC Web, conçues pour une performance rapide et une expérience utilisateur exceptionnelle.",
+      "icon": "pwa"
+    },
+    {
+      "title": "Optimisation SEO et Performance Web",
+      "description": "Améliorez votre visibilité en ligne et la vitesse de votre site avec nos stratégies d'optimisation SEO et de performance web, garantissant une expérience utilisateur de qualité.",
+      "seoTitle": "Optimisation SEO et Performance | BLEC Web",
+      "metaDescription": "Augmentez votre rang sur les moteurs de recherche et améliorez la vitesse de votre site avec BLEC Web. Expérience utilisateur supérieure et meilleures positions SEO assurées.",
+      "icon": "seo"
+    },
+    {
+      "title": "Développement d'APIs Personnalisées",
+      "description": "Facilitez l'intégration entre vos services avec des APIs personnalisées, conçues pour une efficacité et une flexibilité maximales.",
+      "seoTitle": "Développement d'APIs Personnalisées | BLEC Web",
+      "metaDescription": "Intégrez sans effort avec nos APIs personnalisées. BLEC Web vous offre des solutions API flexibles et puissantes pour une connectivité sans précédent.",
+      "icon": "api"
+    },
+    {
+      "title": "Maintenance et Support Technique",
+      "description": "Nos services de maintenance et de support garantissent la performance et la sécurité de vos solutions digitales, vous laissant vous concentrer sur votre activité.",
+      "seoTitle": "Maintenance et Support Technique | BLEC Web",
+      "metaDescription": "Assurez la continuité et la sécurité de vos opérations en ligne avec notre support technique et maintenance proactifs. BLEC Web est votre partenaire de confiance pour un support technique sans faille.",
+      "icon": "maintenance-support"
+    },
+    {
+      "title": "Audit et Conseil en Sécurité Web",
+      "description": "Renforcez la sécurité de vos applications web avec nos audits complets et conseils personnalisés, assurant la protection de vos données et celles de vos clients.",
+      "seoTitle": "Audit et Conseil en Sécurité Web | BLEC Web",
+      "metaDescription": "Sécurisez vos applications web contre les menaces en ligne avec nos services d'audit et de conseil en sécurité. BLEC Web vous aide à protéger vos données et celles de vos clients.",
+      "icon": "safe"
+    },
+    {
+      "title": "Branding et Identité Visuelle",
+      "description": "Développez une identité de marque forte avec notre accompagnement en branding et design visuel, pour une présence marquante et cohérente à travers tous vos canaux.",
+      "seoTitle": "Branding et Identité Visuelle | BLEC Web",
+      "metaDescription": "Marquez les esprits avec un branding et une identité visuelle distinctifs. BLEC Web renforce votre présence en ligne avec des stratégies de branding créatives et cohérentes.",
+      "icon": "branding"
+    },
+    {
+      "title": "Analyse et Rapports de Performance",
+      "description": "Optimisez vos stratégies digitales avec nos analyses de performance approfondies, vous aidant à prendre des décisions éclairées pour votre croissance en ligne.",
+      "seoTitle": "Analyse et Rapports de Performance | BLEC Web",
+      "metaDescription": "Prenez des décisions éclairées avec nos analyses et rapports de performance. Chez BLEC Web, nous transformons les données en insights actionnables pour booster votre stratégie digitale.",
+      "icon": "analyse"
+    },
+    {
+      "title": "Conseil en UX/UI Design",
+      "description": "Améliorez l’expérience et l’interface utilisateur de vos sites web et applications avec notre expertise en UX/UI design, pour une navigation intuitive et engageante.",
+      "seoTitle": "Conseil en UX/UI Design | BLEC Web",
+      "metaDescription": "Créez des expériences utilisateur inoubliables avec notre conseil en UX/UI design. BLEC Web est votre allié pour des interfaces utilisateurs intuitives et captivantes.",
+      "icon": "ui-ux"
+    },
+    {
+      "title": "Création de Contenu et Blogging",
+      "description": "Engagez votre audience et améliorez votre SEO avec du contenu créatif et pertinent, reflétant l’esprit de votre marque tout en attirant de nouveaux clients.",
+      "seoTitle": "Création de Contenu et Blogging | BLEC Web",
+      "metaDescription": "Captez l'attention avec un contenu créatif et augmentez votre visibilité avec notre expertise en blogging. BLEC Web crée des contenus qui reflètent votre marque et engagent votre audience.",
+      "icon": "blogging"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+
+<!-- Bouton du menu burger 
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+-->
+
+<!-- Navigation du menu -->
+    <ul class="nav-links">
+      <% data.siteContent.header.navItems.forEach(item => { %>
+        <li class="link">
+          <a href="<%= item.link %>">
+            <%= item.name %>
+          </a>
+        </li>
+      <% }) %>
+      <li class="link-cta">
+        <a href="<%= data.siteContent.header.cta.link %>" class="cta-button" >
+          <%= data.siteContent.header.cta.text %>
+        </a>
+      </li>
+    </ul>
+    <!--
+    <div class="cta-button">
+    <a href="<%= data.siteContent.header.cta.link %>">
+      <%= data.siteContent.header.cta.text %>
+    </a>
+</div>-->
+
+
