@@ -34,12 +34,23 @@
 
 
 
+
+<!-- HTML pour définir dynamiquement le décalage -->
+<label for="offsetInput">Définir le décalage en pixels:</label>
+<input type="number" id="offsetInput" value="90">
+
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+    // Récupérer l'entrée utilisateur pour le décalage
+    const offsetInput = document.getElementById('offsetInput');
+    let offset = parseInt(offsetInput.value, 10);
+
+    offsetInput.addEventListener('change', function() {
+      offset = parseInt(offsetInput.value, 10);
+    });
+
     // Fonction pour ajuster le scroll
     function adjustAnchorScroll(event) {
-      const header = document.getElementById('header');
-      const headerHeight = header ? header.offsetHeight : 70;
       const targetId = event.currentTarget.getAttribute('href').split('#')[1];
       const targetElement = document.getElementById(targetId);
 
@@ -48,7 +59,7 @@
         const bodyRect = document.body.getBoundingClientRect().top;
         const elementRect = targetElement.getBoundingClientRect().top;
         const elementPosition = elementRect - bodyRect;
-        const offsetPosition = elementPosition - headerHeight;
+        const offsetPosition = elementPosition - offset;
 
         window.scrollTo({
           top: offsetPosition,
@@ -64,7 +75,6 @@
     });
   });
 </script>
-
 
 
 
@@ -115,6 +125,6 @@
   <script src="/js/carousel.js"></script>
   <script src="/js/animationHeader.js"></script>
   <script src="/js/targetNumber.js"></script>
- <!-- <script src="/js/accordion.js"></script>-->
+  <script src="/js/accordion.js"></script>
 </body>
 </html>
