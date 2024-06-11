@@ -5,27 +5,22 @@ const ejsRouter = express.Router();
 const logger = require('../app/libs/logger');
 const initializeData = require('../app/middlewares/initializeData');
 const sendEmailMiddleware = require('../app/middlewares/nodemailer');
-const seoConfig = require('../app/data/seoConfig.json');
-
+const seoConfig = require('../app/data/seoConfig'); // Assurez-vous que ce fichier existe et est correctement configuré
 
 // Route page acceuil
 ejsRouter.get('/', (req, res) => {
-    // Initialiser les données si nécessaire
     initializeData();
-
-    // Charger globalData.json après l'initialisation
     const globalDataPath = path.join(__dirname, '../app/data/globalData.json');
     let globalData;
     if (fs.existsSync(globalDataPath)) {
         globalData = require(globalDataPath);
     } else {
-        globalData = {}; // Valeur par défaut si le fichier n'existe pas
+        globalData = {};
     }
     try {
         res.status(200).render('layouts/main', {
             content: 'index',
-            ...seoConfig.home,
-            data: globalData // Passer globalData à la vue
+            data: globalData
         });
     } catch (error) {
         logger.error(error);
@@ -41,9 +36,6 @@ ejsRouter.get('/', (req, res) => {
     }
 });
 
-
-
-/*
 // Route pour la page mentions légales
 ejsRouter.get('/mentions-legales', (req, res) => {
   try {
@@ -55,9 +47,8 @@ ejsRouter.get('/mentions-legales', (req, res) => {
   } catch (error) {
     logger.error(error);
     res.status(500).render('layouts/main', {
-      pageTitle: seoConfig['500'].pageTitle,
-      pageDescription: seoConfig['500'].pageDescription,
-      keywords: seoConfig['500'].keywords,
+      pageDescription: 'Une erreur interne est survenue lors du rendu de la page Mentions Légales.',
+      keywords: 'erreur, interne, 500',
       error: error,
       content: '500'
     });
@@ -75,17 +66,46 @@ ejsRouter.get('/envoyer-email', (req, res) => {
   } catch (error) {
     logger.error(error);
     res.status(500).render('layouts/main', {
-      pageTitle: seoConfig['500'].pageTitle,
-      pageDescription: seoConfig['500'].pageDescription,
-      keywords: seoConfig['500'].keywords,
+      pageDescription: 'Une erreur interne est survenue lors du rendu de la page Envoyer un Email.',
+      keywords: 'erreur, interne, 500',
       error: error,
       content: '500'
     });
   }
 });
-*/
 
+// Route pour poster un mail
+ejsRouter.post('/envoyer-message', sendEmailMiddleware, (req, res) => {
+  try {
+    res.status(200).render('pages/envoyer-message', { pageTitle: 'email devis' });
+  } catch (error) {
+    logger.error(error);
+    res.status(500).render('layouts/main', {
+      pageDescription: 'Une erreur interne est survenue lors de l\'envoi du message.',
+      keywords: 'erreur, interne, 500',
+      error: error,
+      content: '500'
+    });
+  }
+});
 
-
+// Route pour la page 404 (Page non trouvée)
+ejsRouter.use((req, res) => {
+  try {
+    logger.info('404 page');
+    res.status(404).render('layouts/main', {
+      ...seoConfig['404'],
+      content: '404'
+    });
+  } catch (error) {
+    logger.error(error);
+    res.status(500).render('layouts/main', {
+      pageDescription: 'Une erreur interne est survenue lors du rendu de la page 404.',
+      keywords: 'erreur, interne, 500',
+      error: error,
+      content: '500'
+    });
+  }
+});
 
 module.exports = ejsRouter;
