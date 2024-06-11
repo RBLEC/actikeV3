@@ -231,7 +231,7 @@
                 "logo": "ActikeLogo",
                 "logoDescription": "Le logo représente un concept de sécurité, symbolisé par un cadenas ouvert en blanc, placé au centre d'un bouclier stylisé aux couleurs bleu et vert. Le cadenas, avec une anse ouverte, suggère des thèmes de cybersécurité, de protection des données ou de confiance numérique. Le bouclier, divisé en sections distinctes par des lignes géométriques, renforce l'idée de défense et de solidité.",
                 "name": "Actike Solutions",
-                "slogan": "Sécurisez votre entreprise, protégez vos données"
+                "slogan": "Sécurisez votre entreprise, protégez vos données."
             },
             "navItems": [
                 {
@@ -258,7 +258,7 @@
         },
         "hero": {
             "title": "Bienvenue chez Actike",
-            "subtitle": "Votre partenaire en transformation numérique",
+            "subtitle": "Votre partenaire en sécurité numérique",
             "cta": "En savoir plus",
             "bg": "bg1"
         },

@@ -472,19 +472,18 @@ h5 {
 
 #contact {
     background-color: #fff;
-    padding: 2rem 1rem;
     text-align: center;
 }
 
 .contact-content h2 {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin: 2rem;
     color: #002366; /* Bleu foncé pour le titre */
 }
 
 .contact-content p {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #333;
 }
 
@@ -525,19 +524,18 @@ h5 {
 }
 
 .container-title {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .title-v2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #002366; /* Bleu foncé pour le titre */
+    color: #002366; 
 }
 
 .form p {
     font-size: 1.2rem;
-   // color: #333;
-    margin: 2rem;
+    margin: 1rem;
     text-align: center;
 }
 
@@ -546,7 +544,7 @@ h5 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+   // margin: 1rem;
 }
 
 .stafe {
@@ -641,7 +639,7 @@ h5 {
 .title-v2 {
   text-align: center;
   margin: 2rem;
-  padding: 0.5rem;
+  padding: 1.5rem;
   font-size: 2.8rem;
 }
 
@@ -802,9 +800,7 @@ font-weight: bold;
   color: #FFFFFF; /* Blanc */
 }
 
-.footer-logo img {
-  width: 150px;
-}
+
 
 .img-social {
   width: 144px;

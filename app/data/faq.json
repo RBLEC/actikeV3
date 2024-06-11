@@ -1,0 +1,141 @@
+{
+  "section": {
+    "title": "Cybersécurité » : FAQ pour comprendre les enjeux cruciaux",
+    "faq": [
+      {
+        "question": "Quelle est la différence entre sécurité informatique et cybersécurité ?",
+        "answer": [
+          "La sécurité informatique et la cybersécurité ont un objectif commun : protéger les personnes, les données et les équipements. Cependant, elles se concentrent sur des questions différentes et adoptent une approche distincte.",
+          {
+            "points": [
+              "La sécurité informatique (ou IT en anglais) englobe toutes les mesures prises par les entreprises pour protéger la confidentialité, l’intégrité et la disponibilité de leur système informatique (ordinateurs, serveurs, réseaux, logiciels, base de données…) contre les attaques, les dommages ou les accès non autorisés. Cela passe par la mise en place de pare-feu, l’installation de logiciels antivirus, la configuration de politiques de sécurité, la gestion des accès…",
+              "La cybersécurité est un « sous-ensemble » de la sécurité informatique. Elle vise à assurer la protection et l’intégrité des données, sensibles ou non, au sein d’une infrastructure contre le piratage ou les cyberattaques, c’est-à-dire de toutes les menaces provenant d’Internet ou survenant via Internet."
+            ]
+          },
+          "Vous souhaitez en savoir plus ? Contactez nos experts ACTIKE."
+        ]
+      },
+      {
+        "question": "Quels sont les enjeux majeurs de la cybersécurité pour les entreprises ?",
+        "answer": [
+          "Avec le développement phénoménal des datas et du cloud, la cybersécurité est devenue central pour les entreprises. Le stockage de données dites “sensibles” appartenant aux clients ou aux entreprises sont des biens précieux, particulièrement exposées au risque de vol. Il est donc nécessaire pour les entreprises de :",
+          {
+            "points": [
+              "s’équiper d’armes informatiques performantes pour contrer les tentatives d’infraction et de vol de leurs données",
+              "développer une culture de la vigilance auprès des personnels car l’erreur humaine peut être mise en cause dans l’ouverture de failles de sécurité."
+            ]
+          },
+          "Les dommages subis par les entreprises en cas de cyberattaques (perte de bénéfices, arrêt des échanges…) peuvent aller jusqu’à compromettre leur pérennité.",
+          "Vous souhaitez mettre en place des solutions performantes ? Contactez nos experts ACTIKE."
+        ]
+      },
+      {
+        "question": "Quels sont les principaux risques informatiques ?",
+        "answer": [
+          "Le matériel et les données informatiques d’une entreprise sont exposés à de nombreux risques qu’il est important de répertorier afin de mettre en place les mesures préventives adéquates. Voici les principaux risques :",
+          {
+            "points": [
+              "sinistre électrique (coupures, surtension)",
+              "vol physique (notamment les PC portables et autres interfaces « nomades »)",
+              "virus, programmes malveillants (cheval de Troie…), intrusion informatique, piratage",
+              "espionnage industriel",
+              "cyberattaque",
+              "erreur de manipulation humaine",
+              "panne matérielle"
+            ]
+          },
+          "La perte ou la destruction de matériels et données informatiques peut avoir des conséquences importantes sur la vie d’une entreprise : arrêt de l’activité, pertes financières, risque d’image et de réputation…",
+          "Vous souhaitez mettre en place des mesures préventives ? Contactez nos experts ACTIKE."
+        ]
+      },
+      {
+        "question": "Quelles sont les motivations des cybercriminels (ou hackers) ?",
+        "answer": [
+          "Les cybercriminels sont motivés par divers facteurs, notamment :",
+          {
+            "points": [
+              "le gain financier (chantage, extorsion d’argent via des rançongiciels…)",
+              "l’activisme politique ou idéologique (cyberattaques visant des gouvernements, entreprises…)",
+              "l’espionnage industriel (vol d’informations sensibles, de secrets commerciaux ou de données stratégiques d’entreprises concurrentes)",
+              "le sabotage technique (perturbation des sites web, des réseaux ou des services en ligne d’une entreprise sans réelle motivation)"
+            ]
+          },
+          "Dans tous les cas, les entreprises victimes de cyberattaques subissent des préjudices financiers importants et/ou une atteinte à leur réputation.",
+          "Vous souhaitez vous prémunir contre le piratage ? Contactez les experts ACTIKE."
+        ]
+      },
+      {
+        "question": "Qu’est-ce qu’une attaque par rançongiciel aussi appelé ransomware ?",
+        "answer": [
+          "Il s’agit d’un logiciel malveillant qui bloque l’accès à un appareil (ordinateur, tablette, téléphone) ou à des données en les chiffrant. Le pirate informatique réclame alors le paiement d’une rançon pour débloquer les accès.",
+          "Les moyens d’infection des appareils sont multiples. Le logiciel malveillant peut avoir été installé sur un appareil lors de l’ouverture d’une pièce jointe, d’un clic sur un lien contenu dans un message frauduleux, de la navigation sur un site compromis, d’une intrusion sur le système.",
+          "Vous souhaitez mettre en place des solutions contre le risque de rançon ? Contactez les experts ACTIKE."
+        ]
+      },
+      {
+        "question": "Quelles sont les entreprises concernées par la cybersécurité ?",
+        "answer": [
+          "Contrairement aux idées reçues, la cybersécurité ne concerne pas seulement les grandes structures. Toutes les entreprises sont concernées, quel que soit leur taille, leur secteur d’activités ou leur emplacement géographique, à partir du moment où elles utilisent des technologies de l’information et stockent des données en ligne.",
+          "Vous souhaitez un audit de votre système informatique ? Contactez nos experts ACTIKE."
+        ]
+      },
+      {
+        "question": "Qu’est-ce qu’une attaque par hameçonnage/phishing ?",
+        "answer": [
+          "Il s’agit d’un SMS, mail ou appel frauduleux visant à tromper la victime pour l’inciter à communiquer des données personnelles (identifiant, mot de passe, identité, adresse, données bancaires …) en se faisant passer pour un tiers de confiance (banque, administration, livreur…)",
+          "Vous souhaitez mettre en place des solutions contre le phishing ? Contactez les experts ACTIKE."
+        ]
+      },
+      {
+        "question": "Quels sont les équipements les plus vulnérables aux cyberattaques ?",
+        "answer": [
+          "Tous les appareils connectés à internet sont des cibles potentielles de piratage : ordinateurs, smartphones, tablettes, écouteurs sans fil, appareils de domotiques (assistants personnels, serrures connectées, thermostats intelligents), véhicules connectés, équipements médicaux connectés, serveurs…",
+          "Vous souhaitez sécuriser votre matériel informatique ? Contactez les experts ACTIKE."
+        ]
+      },
+      {
+        "question": "Quelles sont les règles simples pour protéger ses données personnelles sur internet ?",
+        "answer": [
+          "Les données personnelles des internautes représentent une mine d’or pour les cybercriminels. Il existe quelques règles simples, nécessaires mais pas suffisantes, pour se prémunir face aux cybermenaces :",
+          {
+            "points": [
+              "ne rien poster qui pourrait porter préjudice à l’utilisateur (dates de vacances…)",
+              "vérifier la source des sites sur lesquels sont effectuées les transactions",
+              "utiliser des mots de passe complexes",
+              "utiliser un logiciel antivirus payant, seul moyen d’être assuré d’une efficacité garantie."
+            ]
+          },
+          "Vous souhaitez installer des logiciels professionnels ? Contacter les experts ACTIKE."
+        ]
+      },
+      {
+        "question": "Quels sont les chiffres clés de la cybersécurité ?",
+        "answer": [
+          "De nombreuses statistiques sont régulièrement publiées par des organismes comme l’Agence nationale de la sécurité des systèmes d’information-ANSSI, le Club des Experts de la Sécurité de l’Information et du Numérique-CESIN ou encore les compagnies d’assurances…",
+          "Toutes les données confirment que la cybersécurité est un enjeu crucial pour les entreprises, au même titre que la sécurité des personnes, des biens ou de la sécurité incendie. Voici quelques chiffres pour illustrer ces propos* :",
+          {
+            "points": [
+              "1 entreprise sur 2 aurait été victime d’une cyberattaque en 2021",
+              "une entreprise perd en moyenne 27% de son chiffre d’affaires annuel pendant qu’elle remet son système informatique en état",
+              "69% des sociétés ciblées par les cyberattaques sont des TPE/PME",
+              "60% des PME victimes de cyberattaques ne parviennent pas à remonter la pente et font faillite dans les 18 mois après l’attaque",
+              "47% des télétravailleurs sont piégés par des tentatives de phishing",
+              "le coût médian d’une cyberattaque pour une entreprise est de 50 000€",
+              "les mots de passe les plus populaires peuvent être piratés en moins d’1 seconde"
+            ]
+          },
+          "Vous souhaitez mettre en place de solutions résilientes et performante dans votre entreprise ? Contactez les experts ACTIKE.",
+          "(*) Source : Baromètre de la cybersécurité en entreprise CESIN 2022"
+        ]
+      },
+      {
+        "question": "Quelles sont les solutions proposées par Actike ?",
+        "answer": [
+          "Actike, expert en cybersécurité, accompagne les entreprises de Savoie et Haute-Savoie dans la protection de leurs données et leurs infrastructures grâce à une méthode de travail éprouvée, reconnue par ses clients : audit technique, recommandations, mise en conformité, tests et suivi.",
+          "Actike assure la sécurisation et la performance de vos systèmes informations en suivant les recommandations de l’Agence Nationale de Sécurité des Systèmes d’Information-ANSSI.",
+          "N’attendez pas de subir une cyberattaque ou un ralentissement de votre système pour mettre en place des solutions professionnelles et adaptées. Contactez les experts ACTIKE."
+        ]
+      }
+    ]
+  }
+}
