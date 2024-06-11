@@ -309,7 +309,6 @@ li {
 .values {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .value-item {
@@ -852,6 +851,7 @@ font-weight: bold;
   outline: none;
   font-size: 1.2rem;
   transition: background-color 0.3s ease;
+  text-align: center;
 }
 
 .accordion:hover {
@@ -920,64 +920,9 @@ font-weight: bold;
   margin-bottom: 2rem;
 }
 
-.faq-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
-.faq-article {
-  margin-bottom: 1rem;
-  background-color: #fff;
-  border-radius: 0.5rem;
-}
 
-.accordion {
-  background-color: #002366; 
-  color: white;
-  cursor: pointer;
-  padding: 1rem;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 1.2rem;
-  transition: background-color 0.3s ease;
-}
 
-.accordion:hover {
-  background-color: #003399; 
-}
-
-.panel {
-  padding: 0 1rem;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-}
-
-.panel.show {
-  max-height: 500px; 
-  transition: max-height 0.3s ease-in;
-}
-
-.faq-article p {
-  font-size: 1.2rem;
-  color: #333;
-  line-height: 1.6;
-}
-
-.faq-listes {
-  list-style-type: disc; 
-  margin-left: 2rem;
-  margin-bottom: 1rem;
-}
-
-.faq-liste {
-  font-size: 1.2rem;
-  color: #333;
-  line-height: 1.6;
-}
 
 /* CTA Section */
 .faq-cta {
@@ -1047,8 +992,14 @@ font-weight: bold;
     display: none;
   }
 
-
-
+.stafe-image2 {
+  display: none;
+}
+.values, .info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
 
 }
 
