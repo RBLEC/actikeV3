@@ -1043,5 +1043,12 @@ font-weight: bold;
   .faq-cta p {
     font-size: 1rem;
   }
+  .address, .social, .footer-links {
+    display: none;
+  }
+
+
+
+
 }
 
