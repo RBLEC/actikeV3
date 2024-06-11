@@ -185,3 +185,37 @@
         </div>
     </div>
 </section>
+
+
+
+
+
+
+<!-- section FAQ -->
+<section id="faq">
+  <h2><%= data.faq.title %></h2>
+  <div class="faq-container">
+    <% data.faq.faq.forEach(item => { %>
+      <div class="faq-article">
+        <button class="accordion"><%= item.question %></button>
+        <div class="panel">
+          <% if (Array.isArray(item.answer)) { %>
+            <% item.answer.forEach(answerPart => { %>
+              <% if (typeof answerPart === 'string') { %>
+                <p class="faq-article"><%= answerPart %></p>
+              <% } else if (Array.isArray(answerPart.points)) { %>
+                <ul class="faq-listes">
+                  <% answerPart.points.forEach(point => { %>
+                    <li class="faq-liste"><%= point %></li>
+                  <% }) %>
+                </ul>
+              <% } %>
+            <% }) %>
+          <% } else { %>
+            <p class="faq-article"><%= item.answer %></p>
+          <% } %>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+</section>

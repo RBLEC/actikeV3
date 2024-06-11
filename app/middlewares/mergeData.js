@@ -7,6 +7,7 @@ const enterprisePath = path.join(__dirname, '../data/enterprise.json');
 const ecoindexPath = path.join(__dirname, '../data/ecoindex.json');
 const siteContentPath = path.join(__dirname, '../data/siteContent.json');
 const globalDataPath = path.join(__dirname, '../data/globalData.json');
+const faqPath = path.join(__dirname, '../data/faq.json');
 
 const mergeData = () => {
     try {
@@ -15,13 +16,15 @@ const mergeData = () => {
         const servicesData = JSON.parse(fs.readFileSync(servicesPath, 'utf8'));
         const seoConfigData = JSON.parse(fs.readFileSync(seoConfigPath, 'utf8'));
         const siteContentData = JSON.parse(fs.readFileSync(siteContentPath, 'utf8'));
+        const faqData = JSON.parse(fs.readFileSync(faqPath, 'utf8'));
 
         const globalData = {
             ecoindex: ecoindexData,
             enterprise: enterpriseData,
             services: servicesData.services,
             seoConfig: seoConfigData,
-            siteContent: siteContentData
+            siteContent: siteContentData,
+            faq: faqData
         };
 
         fs.writeFileSync(globalDataPath, JSON.stringify(globalData, null, 4));

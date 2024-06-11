@@ -886,3 +886,92 @@ font-weight: bold;
   text-align: center;
   margin: 1rem;
 }
+
+
+/* Section FAQ */
+#faq {
+  padding: 2rem 1rem;
+  background-color: #f8f9fa; /* Couleur de fond légère pour la section */
+}
+
+#faq h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #002366; /* Bleu foncé pour le titre */
+  margin-bottom: 2rem;
+}
+
+.faq-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.faq-article {
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Légère ombre pour les articles */
+}
+
+.accordion {
+  background-color: #002366; /* Bleu foncé */
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.accordion:hover {
+  background-color: #003399; /* Couleur de survol */
+}
+
+.panel {
+  padding: 0 1rem;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.panel.show {
+  max-height: 500px; /* Ajustez selon la hauteur du contenu */
+  transition: max-height 0.3s ease-in;
+}
+
+.faq-article p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.faq-listes {
+  list-style-type: disc; /* Utilisation de puces pour les listes */
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.faq-liste {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .faq-article {
+    padding: 1rem;
+  }
+
+  .accordion {
+    font-size: 1rem;
+  }
+
+  .faq-article p,
+  .faq-liste {
+    font-size: 1rem;
+  }
+}
