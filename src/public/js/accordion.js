@@ -1,4 +1,4 @@
-<script>
+
   document.addEventListener('DOMContentLoaded', function() {
     var accordions = document.querySelectorAll('.accordion');
 
@@ -14,4 +14,4 @@
       });
     });
   });
-</script>
+
