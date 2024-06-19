@@ -1003,3 +1003,34 @@ font-weight: bold;
 
 }
 
+/* Send Message */
+
+.send-email-container {
+    text-align: center;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.send-message-h2 {
+ margin: 1rem;
+ padding: 1rem;
+ line-height: 1.2rem;
+         font-size: 2.5rem;
+    margin: 1.25rem;
+}
+.send-message-p {
+ margin: 1rem;
+ padding: 1rem;
+ line-height: 1.2rem;
+}
+
+
+
+
+.send-email {
+  flex:1;
+}
