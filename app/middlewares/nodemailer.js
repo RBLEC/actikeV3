@@ -1,7 +1,11 @@
+const fs = require('fs');
+const path = require('path');
 const nodemailer = require('nodemailer');
 const logger = require('../libs/logger');
 const seoConfig = require('../data/seoConfig.json');
+const globalData = require('../data/globalData.json')
 const dotenv = require(`dotenv`);
+const initializeData = require('./initializeData');
 dotenv.config();
 
 // Configuration du transporteur Nodemailer
@@ -92,12 +96,25 @@ L'équipe BLEC Web.
     text: messageClient,
   };
 
+    // Initialiser les données si nécessaire
+    initializeData();
+    // Charger globalData.json après l'initialisation
+    const globalDataPath = path.join(__dirname, '../data/globalData.json');
+    let globalData;
+    if (fs.existsSync(globalDataPath)) {
+        globalData = require(globalDataPath);
+    } else {
+        globalData = {}; // Valeur par défaut si le fichier n'existe pas
+    }
+
+
   try {
     await sendEmails(userData, mailOptionsTeam, mailOptionsClient);
     logger.info("Affichage de la page d'envoi des emails");
     res.status(200).render('layouts/main', {
       ...seoConfig['send-email'],
       content: 'send-email',
+      data: globalData,
       message: 'Votre message a été envoyé avec succès.'
     });
     next();
