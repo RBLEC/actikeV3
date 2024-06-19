@@ -23,13 +23,13 @@
 
 <body>
   <div class="page-main">
-      <%- include('../partials/header') %>
+      <%- include('../partials/header', { data: data }) %>
       <main>
         <div class="center-image">
           <%- include('../pages/' + content) %>
         </div>
       </main>
-      <%- include('../partials/footer') %>
+      <%- include('../partials/footer', { data: data }) %>
   </div>
 
 
