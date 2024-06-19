@@ -1034,3 +1034,38 @@ font-weight: bold;
 .send-email {
   flex:1;
 }
+
+.mention {
+
+margin-top: 150px;
+
+
+
+}
+
+.mention h2 {
+  margin: 1rem;
+  line-height: 1.5;
+  margin: 2rem 1rem 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.mention h3 {
+  margin: 1rem;
+  line-height: 1.5;
+  margin: 2rem .5rem .5rem 1.5rem;
+  font-size: 1.rem;
+  font-weight: bold;
+}
+.mention p {
+  margin: 1rem;
+  line-height: 1.5;
+}
+
+b {
+  font-weight: bold;
+}
+
+ul li {
+  margin: 1rem;
+}
